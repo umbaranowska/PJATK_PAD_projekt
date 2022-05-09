@@ -1,6 +1,5 @@
-# PJATK_PAD_projekt
-
-Programowanie dla Analityki Danych PJATK 2022 - projekt zaliczeniowy.
+# Analiza rynku escape roomów w Polsce i przewidywanie średniej oceny graczy na podstawie danych z portalu lockme.pl
+projekt zaliczeniowy z Programowania dla Analityki Danych (PJATK, 2022)
 
 ## Cel projektu
 Celem projektu jest sprawdzenie czy na podstawie informacji o escape roomach w Polsce znalezionych na stronie lockme.pl można przewidywać średnią ocenę escape roomu wystawioną przez użytkowników portalu.  
