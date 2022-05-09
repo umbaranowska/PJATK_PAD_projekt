@@ -8,3 +8,8 @@ Programowanie dla Analityki Danych PJATK 2022 - projekt zaliczeniowy.
 - **data_scraping_rooms.py** - drugi krok pobierania danych - odwiedza każdą ze stron znalezionych w pierwszym kroku, znajduje wszystkie potrzebne informacje, zapisuje do .json, na koniec łączy wszystko do pd.DataFrame zapisuje do pliku .csv - dla niektórych sekcji z informacjami XPATH jest niezmienny, dla innych trzeba najpierw znaleźć numer sekcji, ostatecznie generuje się dużo więcej kolumn niż potrzeba, ale celem było względnie sprawne pobranie wszyskich danych, czyszczenie dopiero w kolejnym kroku
 - **/data_part** - folder zawiera dane dla każdego ER w plikach .json
 - **data.csv** - surowe dane dla wszystkich ER ściągnięte w drugim kroku
+
+## Czyszczenie danych - folder data_cleaning
+### 01
+- skupia się na kolumnach z podstawowymi informacjami: 'nazwa', 'miasto', 'firma', 'liczba_graczy', 'czas_gry', 'kategoria', 'poziom_trudnosci', 'liczba_ocen', 'miejsce_w_polsce'
+- w tym kroku ze zbioru danych usunięto 3 wiersze - (1) pokój, który rzeczywiście nie ma przypisanej kategorii, (2) pokój oznaczony jako 'dostępny wkrótce', ale jednocześnie z recenzjami użytkowników z 2020 roku - prawdopodobnie pomyłka / pokój nieczynny, (3) szablon strony ER znaleziony dzięki nietypowej wartości w kolumnie z nazwą miasta (Escape City)
