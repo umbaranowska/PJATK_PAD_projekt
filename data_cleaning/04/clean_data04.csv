@@ -1,0 +1,474 @@
+,nazwa,miasto,firma,czas_gry,kategoria,poziom_trudnosci,liczba_ocen,miejsce_w_polsce,języki_rosyjski,bezpieczeństwo_tylko_niskie_napięcie_w_zasięgu_gracza,bezpieczeństwo_dezynfekowane_pokoje,podstawowe_klimatyzowany,podstawowe_możesz_kupić_tutaj_escape_tales,podstawowe_półmrok_w_pokoju,podstawowe_nie_dla_epileptyków,podstawowe_bardzo_wąskie_przejścia,bezpieczeństwo_dezynfekcja_lampami_uvc,podstawowe_gra_bez_aktora,bezpieczeństwo_ograniczony_kontakt_z_innymi_grupami,bezpieczeństwo_oświetlenie_awaryjne,podstawowe_przyjazny_zwierzętom,bezpieczeństwo_dostępny_żel_antybakteryjny,podstawowe_pokój_eliminacyjny_poland_escape,inne_prawdziwy_mistrz_gry,bezpieczeństwo_przycisk_bezpieczeństwa,języki_słowacki,języki_czeski,podstawowe_nie_dla_osób_z_chorobami_serca,podstawowe_nieodpowiednie_dla_osób_z_klaustrofobią,podstawowe_od_18_lat,bezpieczeństwo_drzwi_zawsze_otwarte,bezpieczeństwo_pełen_monitoring,bezpieczeństwo_pełen_kontakt_z_mistrzem_gry,bezpieczeństwo_klucz_bezpieczeństwa,bezpieczeństwo_system_awaryjnego_otwierania_drzwi,języki_angielski,podstawowe_przyjazny_niepełnosprawnym,podstawowe_możliwość_płatności_kartą,bezpieczeństwo_dostępne_rekawiczki,podstawowe_nie_dla_kobiet_w_ciąży,języki_polski,podstawowe_przyjazny_dzieciom,podstawowe_od_16_lat,srednia_ocena,ocena_obsluga,ocena_klimat,trudnosc_wg_graczy,min_liczba_graczy,max_liczba_graczy
+0,Cicha Noc,Gliwice,TickTack,75 ,Przygodowy,śr. zaawansowani,85 ,1,0,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0,1,1,1,0,1,0,0,1,0,1,1,1,0,10,10.0,10.0,Średni,2,5 
+1,Powstanie Warszawskie,Warszawa,Black Cat Escape Room,80 ,Historyczny,śr. zaawansowani,258 ,2,0,1,1,1,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,0,1,1,1,0,1,1,0,0,1,1,1,1,0,9.8,9.8,10.0,Trudny,2,8 
+2,Lokalizacja,Gliwice,TickTack,75 ,Fabularny,doświadczony,271 ,3,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,1,1,1,0,1,0,0,0,0,1,1,0,1,10,10.0,10.0,Trudny,2,5 
+3,Opuszczony Hotel,Wrocław,Exit19.pl,101 ,Thriller,śr. zaawansowani,57 ,4,0,1,1,1,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0,1,1,1,0,1,1,0,1,0,1,1,0,1,9.9,9.9,10.0,Średni,2,5 
+4,Rastamobil,Wrocław,Escape Bus / Escapeo,90 ,Przygodowy,śr. zaawansowani,98 ,5,0,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,1,0,0,9.9,10.0,10.0,Średni,2,4 
+5,Krasnoludy,Poznań,Escapelandia,75 ,Przygodowy,śr. zaawansowani,91 ,6,0,1,1,0,0,0,1,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,1,0,9.9,10.0,10.0,Średni,2,4 
+6,Moriarty sp. z o.o.,Katowice,Quest Cage,75 ,Fabularny,śr. zaawansowani,434 ,7,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,9.8,9.9,9.9,Trudny,2,5 
+7,Klątwa Czarnobrodego,Bydgoszcz,Mr Lock Escape Room,60 ,Przygodowy,śr. zaawansowani,117 ,8,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,1,1,1,0,0,0,1,1,1,0,9.8,9.9,9.9,Trudny,2,4 
+8,Superheroom,Bydgoszcz,Mr Lock Escape Room,70 ,Przygodowy,śr. zaawansowani,410 ,9,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,0,0,1,1,0,0,9.8,10.0,9.9,Trudny,2,5 
+9,Lochy Króla Artura,Wrocław,Exit19.pl,90 ,Przygodowy,śr. zaawansowani,159 ,10,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,9.8,9.5,9.9,Trudny,2,5 
+10,Rodzina Addamsów,Wrocław,HURRY UP,90 ,Przygodowy,śr. zaawansowani,110 ,11,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,1,0,1,9.8,10.0,10.0,Trudny,2,4 
+11,W cieniu piramid,Warszawa,Wyjście Awaryjne,60 ,Przygodowy,śr. zaawansowani,218 ,12,0,1,1,1,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,0,1,1,1,0,0,9.8,9.7,9.9,Średni,2,5 
+12,Serce Ozyrysa,Kraków,Escape Kraków,90 ,Przygodowy,doświadczony,77 ,14,0,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,1,1,1,0,1,1,0,1,0,1,1,0,0,9.7,9.8,9.7,Trudny,2,5 
+13,Seria Niefortunnych Zagadek,Pszczyna,Cinema Escape,75 ,Fabularny,śr. zaawansowani,218 ,13,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,0,9.8,9.9,10.0,Średni,3,6 
+14,Operacja: Metro,Bydgoszcz,Wyjście Awaryjne,75 ,Przygodowy,śr. zaawansowani,133 ,15,0,1,1,1,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,9.8,9.8,10.0,Trudny,2,5 
+15,Expecto Patronum!,Gdańsk,Escape Time,75 ,Przygodowy,śr. zaawansowani,83 ,16,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,1,1,0,1,1,0,9.7,9.9,10.0,Średni,2,6 
+16,Osobowość,Poznań,Continuum,75 ,Kryminalny,doświadczony,142 ,17,0,1,1,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,0,1,9.7,9.9,9.9,Trudny,2,4 
+17,Wikingowie · Amulety Mocy,Poznań,ESCAPE ARENA,75 ,Przygodowy,śr. zaawansowani,176 ,18,0,1,1,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,1,1,0,1,1,0,9.8,10.0,9.9,Trudny,2,5 
+18,Katakumby,Warszawa,Zagadkownia,75 ,Thriller,początkujący,61 ,19,0,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,1,1,1,0,0,9.7,9.9,10.0,Średni,2,6 
+19,Przeklęta wyspa,Warszawa,Escape Project,60 ,Przygodowy,śr. zaawansowani,259 ,20,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,0,1,1,0,0,9.7,9.7,9.9,Średni,2,6 
+20,Nieznajomi,Poznań,Continuum,75 ,Horror,śr. zaawansowani,111 ,21,0,1,1,1,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,1,1,1,0,1,0,0,1,1,1,0,1,9.7,9.9,9.8,Średni,2,4 
+21,Testament,Rybnik,Set Me Free,75 ,Przygodowy,doświadczony,54 ,22,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,1,0,1,9.9,10.0,10.0,Trudny,2,4 
+22,Tajemnicze Domostwo,Poznań,DreamScape,75 ,Thriller,doświadczony,66 ,23,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,1,1,1,0,0,0,0,1,1,0,1,9.8,10.0,10.0,Trudny,2,4 
+23,Chłopiec,Rybnik,Set Me Free,75 ,Fabularny,śr. zaawansowani,20 ,24,0,1,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,1,9.9,10.0,10.0,Średni,2,5 
+24,Pachnidło,Gdańsk,Escape Time,75 ,Thriller,śr. zaawansowani,92 ,25,0,1,1,1,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,1,9.7,9.9,9.8,Trudny,2,6 
+25,Obłęd,Wrocław,Exit19.pl,90 ,Thriller,śr. zaawansowani,293 ,26,0,1,0,1,1,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,0,1,1,0,1,1,0,1,0,1,1,0,1,9.7,9.7,9.8,Trudny,2,6 
+26,Golden Hajs,Poznań,Escapelandia,75 ,Przygodowy,doświadczony,147 ,27,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,0,9.7,9.9,9.8,Trudny,2,5 
+27,American School Story,Wrocław,Fox O'clock,90 ,Thriller,doświadczony,128 ,28,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1,1,0,1,9.7,9.9,9.9,Trudny,2,5 
+28,Dom pogrzebowy,Poznań,Escapelandia,60 ,Przygodowy,śr. zaawansowani,159 ,29,0,0,1,1,0,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,1,0,1,1,0,1,9.6,9.8,9.9,Trudny,2,5 
+29,W cieniu piramid,Bydgoszcz,Wyjście Awaryjne,60 ,Przygodowy,śr. zaawansowani,301 ,30,0,1,1,1,0,1,1,0,0,1,0,1,1,1,1,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,0,9.7,9.8,10.0,Trudny,2,5 
+30,Porwany Samolot,Wrocław,Escape Bus / Escapeo,90 ,Thriller,śr. zaawansowani,285 ,31,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,1,0,1,9.7,10.0,9.8,Trudny,2,4 
+31,Szum,Poznań,Continuum,75 ,Thriller,śr. zaawansowani,118 ,32,0,1,1,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,1,1,0,1,9.8,9.9,9.9,Trudny,2,5 
+32,Koneser,Poznań,DreamScape,75 ,Przygodowy,śr. zaawansowani,206 ,33,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,9.7,9.8,9.8,Trudny,2,5 
+33,Sekret dziadka,Poznań,Escapelandia,75 ,Fabularny,doświadczony,241 ,34,0,1,1,1,0,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,0,9.7,10.0,9.8,Trudny,2,5 
+34,Muzeum okultyzmu Państwa Warren,Warszawa,Exciting Escape Room,90 ,Horror,doświadczony,97 ,35,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,1,1,1,0,0,9.6,9.9,9.8,Trudny,2,5 
+35,Freakshow,Bydgoszcz,Break The Brain,60 ,Thriller,początkujący,178 ,36,0,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,1,0,1,1,0,0,9.7,9.9,9.9,Średni,2,4 
+36,Sztukmistrz z dzielnicy Muveszet,Warszawa,Mysterious Room,90 ,Fabularny,śr. zaawansowani,61 ,37,0,1,1,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,1,9.5,9.8,9.9,Trudny,2,5 
+37,Galaktyka Tajemnic,Poznań,ESCAPE ARENA,75 ,Przygodowy,śr. zaawansowani,127 ,38,0,1,1,1,0,0,1,1,1,0,1,1,1,1,0,0,1,0,0,0,1,0,1,1,1,0,1,1,0,1,1,1,1,1,0,9.7,9.9,9.8,Średni,2,5 
+38,Urok,Poznań,DreamScape,75 ,Przygodowy,śr. zaawansowani,109 ,39,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,9.7,9.9,9.7,Średni,2,5 
+39,Dooby Doo,Wrocław,Fox O'clock,90 ,Thriller,doświadczony,242 ,40,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,1,0,0,9.6,9.9,9.8,Trudny,2,5 
+40,Ale Sztuka!,Chorzów,LOFTescape,60 ,Fabularny,śr. zaawansowani,51 ,41,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,1,0,0,9.5,9.8,9.8,Trudny,2,4 
+41,Legenda Miecza,Warszawa,Wyjście Awaryjne,60 ,Przygodowy,początkujący,342 ,42,0,1,1,1,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,1,0,9.5,9.7,9.7,Średni,2,5 
+42,Tajemnica Władcy Nilu,Bydgoszcz,Wyjście Awaryjne,60 ,Przygodowy,początkujący,167 ,43,0,1,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,9.3,9.5,9.8,Średni,2,5 
+43,Wehikuł Czasu - Tajemnica Leonarda,Wrocław,Exit19.pl,90 ,Przygodowy,śr. zaawansowani,76 ,44,0,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,9.5,9.7,10.0,Trudny,2,5 
+44,Kuźnia Krasnoluda,Gdynia,Escape Me Gdynia,75 ,Fantasy,doświadczony,31 ,45,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,1,0,9.8,10.0,10.0,Trudny,2,4 
+45,Teksańska Masakra,Poznań,Find a Way,75 ,Horror,śr. zaawansowani,21 ,46,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,1,1,1,1,0,1,9.5,9.7,10.0,Trudny,2,5 
+46,Stara Szafa,Warszawa,Świat Zagadek,70 ,Przygodowy,śr. zaawansowani,105 ,47,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1,0,0,1,1,0,1,1,0,9.4,9.8,9.6,Trudny,2,5 
+47,Kopalnia Złota,Chorzów,Strych,60 ,Przygodowy,śr. zaawansowani,93 ,48,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,1,0,1,9.5,10.0,9.9,Średni,2,4 
+48,Psychopata,Rybnik,Set Me Free,75 ,Thriller,śr. zaawansowani,58 ,49,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,1,0,1,9.8,10.0,10.0,Trudny,2,5 
+49,In da Club,Poznań,IN DA CLUB,75 ,Przygodowy,śr. zaawansowani,55 ,50,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,1,1,0,1,1,0,1,1,0,1,0,0,9.6,9.9,9.9,Trudny,2,5 
+50,Syreni Śpiew,Wrocław,Fox O'clock,60 ,Fantasy,śr. zaawansowani,128 ,51,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,1,0,0,9.4,9.6,9.7,Trudny,2,4 
+51,Ubik,Bytom,Escape Graal,70 ,Fabularny,śr. zaawansowani,60 ,52,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,0,9.5,10.0,9.6,Średni,2,5 
+52,Wrota Czasu - Tortuga,Gliwice,TickTack,60 ,Przygodowy,śr. zaawansowani,418 ,53,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,1,0,9.4,10.0,9.9,Trudny,2,5 
+53,Tunele pod miastem,Katowice,Quest Cage Centrum,60 ,Przygodowy,początkujący,149 ,54,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,1,1,0,0,1,0,1,0,1,1,0,1,9.4,9.8,9.7,Średni,2,4 
+54,Świt nietoperzy,Poznań,Evadere,75 ,Przygodowy,doświadczony,37 ,55,0,1,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,1,0,0,1,0,1,9.6,10.0,9.6,Trudny,2,5 
+55,Sanitariusz,Swarzędz,Escape House,75 ,Thriller,śr. zaawansowani,38 ,56,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,1,9.7,10.0,9.8,Trudny,2,4 
+56,Tajemnicza Komnata,Warszawa,Świat Zagadek,60 ,Przygodowy,początkujący,520 ,57,0,1,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1,0,0,1,1,0,1,1,0,9.4,10.0,9.5,Średni,2,5 
+57,Świątynia 2.0 - Wynalazek Tesli,Kraków,Secreto,60 ,Przygodowy,śr. zaawansowani,86 ,59,0,1,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,1,0,1,9.3,9.4,9.6,Średni,2,5 
+58,Nekromanta - Rytuał Śmierci,Wrocław,Exit19.pl,70 ,Przygodowy,śr. zaawansowani,156 ,58,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0,1,1,0,1,0,0,1,0,1,9.5,9.8,9.8,Średni,2,5 
+59,Paranoja,Łódź,Tkalnia Zagadek,150 ,Horror,śr. zaawansowani,29 ,60,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,1,1,0,1,9.8,9.8,9.9,Trudny,2,6 
+60,Kancelaria,Poznań,Key To Be Free,75 ,Kryminalny,śr. zaawansowani,15 ,61,0,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,1,0,1,9.7,10.0,10.0,Średni,2,6 
+61,Magia Hogwartu,Rzeszów,Escape Room Rzeszów,60 ,Fantasy,śr. zaawansowani,47 ,62,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,1,0,9.6,9.9,10.0,Trudny,2,6 
+62,Odkrywcy,Swarzędz,Escape House,60 ,Przygodowy,śr. zaawansowani,45 ,63,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,1,9.7,10.0,9.9,Trudny,2,4 
+63,Rosalie,Wrocław,Fox O'clock,75 ,Thriller,doświadczony,18 ,64,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,9.2,9.8,9.5,Trudny,2,4 
+64,Legenda Miecza,Bydgoszcz,Wyjście Awaryjne,60 ,Przygodowy,początkujący,450 ,65,0,1,1,1,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,1,0,1,1,0,9.6,9.8,9.8,Średni,2,5 
+65,Złoto nazistów,Warszawa,Black Cat Escape Room,60 ,Przygodowy,śr. zaawansowani,982 ,66,1,1,1,1,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,0,1,1,1,0,1,1,0,0,1,0,1,1,0,9.2,9.8,9.7,Trudny,2,7 
+66,Saloon,Zabrze,Open The Lock,75 ,Przygodowy,śr. zaawansowani,43 ,68,0,1,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,1,0,0,9.6,10.0,9.7,Trudny,2,5 
+67,Bestie Peruna,Wrocław,Trap Jungle,100 ,Fantasy,doświadczony,4 ,67,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,1,0,1,9.9,10.0,10.0,Trudny,2,4 
+68,Zamek Czarnego Kruka,Bytom,Can you escape?,60 ,Przygodowy,śr. zaawansowani,64 ,69,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,1,0,9.4,9.9,9.8,Średni,2,5 
+69,Primadonna,Poznań,Operator Zagadek,75 ,Przygodowy,śr. zaawansowani,80 ,71,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,0,0,9.6,9.9,9.7,Średni,2,8 
+70,Obłęd,Bydgoszcz,Break The Brain,60 ,Thriller,śr. zaawansowani,323 ,72,0,1,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,1,0,1,9.4,9.8,9.8,Trudny,3,7 
+71,Dom mordercy Remastered,Warszawa,Black Cat Escape Room,70 ,Thriller,śr. zaawansowani,1 467 ,73,0,1,1,1,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,0,1,1,1,0,1,0,0,0,1,1,1,0,0,9.1,9.7,9.7,Trudny,2,7 
+72,Reaktor 404: powrót atomu,Katowice,Quest Cage,60 ,Fabularny,początkujący,309 ,74,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,1,9.2,9.9,9.6,Średni,2,5 
+73,Jaś i Małgosia,Poznań,Escapelandia,60 ,Fantasy,początkujący,39 ,76,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,0,0,9.3,9.7,9.6,Łatwy,2,4 
+74,Duch,Poznań,EXODUS,60 ,Horror,śr. zaawansowani,56 ,75,0,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,1,8.8,9.1,9.2,Trudny,2,6 
+75,Piracka Skrzynia Umarlaka,Gdynia,Escape Me Gdynia,60 ,Fantasy,śr. zaawansowani,21 ,78,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,1,0,9.6,10.0,9.8,Trudny,2,5 
+76,Sekretne Stowarzyszenie,Toruń,Bunkier51,75 ,Fabularny,śr. zaawansowani,21 ,77,0,1,1,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,0,9.7,9.6,9.6,Trudny,2,7 
+77,Kim jest Max Winckler?,Warszawa,Mysterious Room,60 ,Fabularny,doświadczony,86 ,79,0,1,1,0,1,1,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,1,8.9,9.7,9.4,Trudny,2,5 
+78,Licencja 00,Chorzów,LOFTescape,75 ,Akcja,śr. zaawansowani,62 ,80,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,9.2,9.9,9.4,Trudny,1,4 
+79,Piekło Hazardzisty,Katowice,Quest Cage,70 ,Fabularny,eksperci,84 ,81,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,9.3,9.8,9.6,Trudny,2,5 
+80,Grota Mocy,Zabrze,Open The Lock,70 ,Przygodowy,śr. zaawansowani,71 ,82,0,1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,1,0,0,9.5,9.9,9.8,Średni,2,5 
+81,Turniej Magiczny,Kraków,Lock House,60 ,Przygodowy,śr. zaawansowani,56 ,83,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,1,0,8.9,9.7,9.3,Średni,2,5 
+82,Klątwa Skarbu Majów,Wrocław,Exit19.pl,60 ,Przygodowy,śr. zaawansowani,133 ,84,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,9.1,9.7,9.7,Trudny,2,4 
+83,Krew wikingów,Tczew,Escape Room Tczew,60 ,Historyczny,doświadczony,23 ,85,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,1,0,0,9.5,10.0,9.7,Trudny,2,6 
+84,Duch Wulkanu - Człowieki w Kotle,Wrocław,Exit19.pl,60 ,Przygodowy,śr. zaawansowani,76 ,70,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,1,0,1,1,0,1,0,0,1,1,0,9.1,9.6,9.8,Trudny,2,4 
+85,Biały Wilk,Szczecin,ESC Room,90 ,Fantasy,doświadczony,30 ,87,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,1,0,9.4,9.8,9.9,Trudny,3,8 
+86,Tożsamość Mordercy,Legnica,LockER,90 ,Kryminalny,śr. zaawansowani,8 ,86,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,0,9.9,10.0,10.0,Średni,2,6 
+87,Murder House,Poznań,Continuum,60 ,Horror,początkujący,251 ,88,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,1,1,1,0,1,9.4,9.8,9.7,Trudny,1,4 
+88,Faraon,Poznań,Escapelandia,75 ,Przygodowy,doświadczony,170 ,89,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,0,9.4,9.9,9.6,Trudny,2,5 
+89,Prolog,Łódź,Forest Escape,120 ,Przygodowy,śr. zaawansowani,265 ,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,1,0,0,9.5,9.6,9.9,Trudny,2,6 
+90,Nautilus: Podmorska Przygoda,Bydgoszcz,Wyjście Awaryjne,60 ,Przygodowy,śr. zaawansowani,409 ,91,0,1,1,1,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,9.3,9.9,9.9,Trudny,2,5 
+91,Skarbiec,Bydgoszcz,Wyjście Awaryjne,60 ,Kryminalny,śr. zaawansowani,198 ,92,0,1,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,9.5,10.0,9.6,Średni,2,5 
+92,Wiedźma II: Lochy,Radomsko,Zagadkowo,75 ,Horror,śr. zaawansowani,27 ,93,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,0,0,9.8,10.0,9.9,Trudny,2,6 
+93,Grobowiec Tutanchamona,Grudziądz,Find The Key,60 ,Przygodowy,początkujący,10 ,94,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,9.7,9.9,9.8,Średni,2,5 
+94,Pogrzeb Arystokraty,Wrocław,Secret Room & Brain Code,90 ,Fabularny,początkujący,184 ,95,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,1,9.3,10.0,9.7,Średni,2,6 
+95,Królowa Wampirów,Częstochowa,Dom Tajemnic,60 ,Thriller,śr. zaawansowani,19 ,96,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,1,1,0,1,1,1,1,0,0,9.6,9.9,9.9,Trudny,2,5 
+96,Wrota Czasu - Egipt,Gliwice,TickTack,60 ,Przygodowy,śr. zaawansowani,350 ,97,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,1,0,8.9,9.9,9.3,Trudny,2,5 
+97,wyZYSKpol,Bielsko-Biała,Konsorcjum Czasu,90 ,Przygodowy,śr. zaawansowani,48 ,98,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,9.4,9.9,9.6,Trudny,2,6 
+98,Plugawy HOTel,Kraków,Lock House,60 ,Thriller,śr. zaawansowani,133 ,99,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,0,1,9.5,10.0,9.8,Trudny,2,5 
+99,Klątwa zarazy,Tczew,Escape Room Tczew,60 ,Przygodowy,śr. zaawansowani,6 ,100,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,1,1,0,9.5,9.9,9.9,Średni,2,6 
+100,Nautilus: Podmorska przygoda,Warszawa,Wyjście Awaryjne,60 ,Przygodowy,śr. zaawansowani,208 ,101,0,1,1,1,0,0,1,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,1,1,0,9.0,9.6,9.6,Trudny,2,5 
+101,Łódź Podwodna,Zakopane,LetMeOut,75 ,Przygodowy,doświadczony,37 ,102,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,9.2,9.7,9.4,Trudny,2,6 
+102,Osadzeni w Bunkrze,Warszawa,8 Gates Escape Room,60 ,Przygodowy,doświadczony,173 ,104,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,1,0,1,1,1,0,9.0,9.8,9.5,Trudny,2,6 
+103,Spisek Kardynała,Warszawa,Room Escape Warszawa,60 ,Historyczny,doświadczony,95 ,105,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,9.0,9.5,9.2,Trudny,2,5 
+104,Zew Przedwiecznych,Poznań,The Bunkier Escape Rooms,90 ,Przygodowy,śr. zaawansowani,30 ,103,0,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,1,0,1,0,1,8.9,9.5,9.7,Trudny,2,4 
+105,Olimp,Warszawa,Room Escape Warszawa,60 ,Historyczny,śr. zaawansowani,115 ,106,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,9.0,9.6,9.3,Średni,2,5 
+106,Ale Cyrk!,Gdańsk,Escape Time,75 ,Abstrakcyjny,śr. zaawansowani,181 ,108,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,1,0,9.2,9.8,9.4,Średni,2,6 
+107,Schron,Bielsko-Biała,Tajemnicza Piwnica - ER Group sp. z o. o.,70 ,Abstrakcyjny,śr. zaawansowani,5 ,107,0,1,1,0,0,1,0,1,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,1,1,1,1,0,9.7,10.0,10.0,Średni,2,4 
+108,Krwawa Rzeźnia,Gdańsk,Questrooms,60 ,Horror,śr. zaawansowani,177 ,109,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,1,1,1,1,1,0,1,1,1,1,0,0,9.0,9.4,9.1,Trudny,2,5 
+109,Porwanie w szkole magii,Szczyrk,Chata Tajemnic,60 ,Fantasy,śr. zaawansowani,25 ,111,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,1,0,9.0,9.9,9.6,Średni,2,5 
+110,Jumanji,Wrocław,HURRY UP,60 ,Przygodowy,doświadczony,362 ,110,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,9.4,9.8,9.6,Trudny,2,5 
+111,Dzicy Są,Wrocław,In&Out,70 ,Przygodowy,śr. zaawansowani,60 ,112,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0,1,1,0,9.0,9.8,9.7,Średni,2,4 
+112,Tajemnica Leśnej Chaty 2.0,Białystok,Unlocked - Escape Room,90 ,Thriller,eksperci,10 ,113,0,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,1,9.6,10.0,9.8,Trudny,2,5 
+113,Tajemnica świątyni Majów,Warszawa,Mysterious Room,60 ,Przygodowy,doświadczony,55 ,114,0,1,1,0,1,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,1,9.1,10.0,9.7,Trudny,2,5 
+114,Jaskinia Hazardu,Poznań,ESCAPE ARENA,75 ,Kryminalny,śr. zaawansowani,131 ,115,0,1,1,1,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,0,9.1,9.9,9.3,Trudny,2,5 
+115,Underworld,Wrocław,Secret Room & Brain Code,120 ,Przygodowy,śr. zaawansowani,100 ,116,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,1,0,1,8.9,9.6,9.2,Trudny,3,6 
+116,Tajemniczy las,Poznań,Escapelandia,60 ,Przygodowy,śr. zaawansowani,306 ,117,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,1,0,9.0,9.7,9.3,Średni,2,5 
+117,Łowcy snów,Bielsko-Biała,HURRY UP,60 ,Abstrakcyjny,śr. zaawansowani,104 ,119,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,1,1,0,9.1,9.4,9.2,Trudny,2,5 
+118,Zbrodnia na płótnie,Warszawa,Black Cat Escape Room,60 ,Fabularny,śr. zaawansowani,387 ,118,1,1,1,1,0,0,0,0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,1,0,1,0,1,1,0,8.8,9.8,9.4,Trudny,2,7 
+119,Chata górala,Szczyrk,Chata Tajemnic,60 ,Thriller,śr. zaawansowani,16 ,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,0,0,8.9,9.9,9.5,Trudny,2,5 
+120,Komnata Wiedźmy,Zakopane,LetMeOut,75 ,Fantasy,śr. zaawansowani,32 ,121,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,9.1,9.4,9.5,Trudny,2,6 
+121,Piracka Tawerna,Bydgoszcz,Wyjście Awaryjne,50 ,Przygodowy,śr. zaawansowani,11 ,122,0,1,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,1,0,9.4,9.6,9.9,Trudny,1,3 
+122,Statek kosmiczny 2.0,Kraków,Secreto,60 ,Przygodowy,śr. zaawansowani,57 ,123,0,1,0,0,0,0,1,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,9.0,9.7,9.5,Średni,2,5 
+123,Upiorny Teatrzyk Lalek,Katowice,Next Room Katowice,65 ,Thriller,śr. zaawansowani,34 ,125,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,1,0,0,9.4,9.8,9.7,Średni,2,6 
+124,Bydgoska Gra Miejska,Bydgoszcz,Wyjście Awaryjne,90 ,Przygodowy,śr. zaawansowani,18 ,124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,9.3,9.8,9.8,Łatwy,2,4 
+125,Sekret Umysłu,Łódź,Alfa Fun,75 ,Thriller,śr. zaawansowani,19 ,127,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,1,0,1,0,0,9.2,10.0,9.6,Średni,2,5 
+126,Klątwa starej wiedźmy,Bydgoszcz,Park17 Sp. z o.o.,60 ,Przygodowy,początkujący,48 ,126,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,1,0,9.0,9.8,9.6,Łatwy,2,4 
+127,Szlak Nieumarłych,Gliwice,Open The Lock,80 ,Thriller,doświadczony,38 ,128,0,1,1,1,1,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,1,1,1,1,0,0,1,1,1,1,0,1,9.1,9.5,9.5,Trudny,2,6 
+128,PRL 2- Dekonspiracja Gieńka,Toruń,Dom Kłódek,60 ,Fabularny,doświadczony,29 ,129,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,1,0,9.1,9.7,9.4,Trudny,2,6 
+129,Zdrada w Breslau,Wrocław,Exit19.pl,75 ,Kryminalny,doświadczony,496 ,130,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,1,1,1,0,1,1,0,1,0,0,1,0,1,8.9,9.7,9.6,Trudny,2,7 
+130,Escape DaVinci,Kraków,WydostanSie Escape Rooms,75 ,Przygodowy,śr. zaawansowani,283 ,131,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,9.2,9.8,9.8,Średni,2,5 
+131,Postapo,Łódź,Forest Escape,120 ,Przygodowy,śr. zaawansowani,110 ,132,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,1,0,0,9.5,9.7,9.7,Trudny,2,6 
+132,Świątynia Zagłady,Gliwice,Open The Lock,80 ,Fabularny,doświadczony,72 ,133,0,1,1,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0,0,1,1,1,1,1,0,1,1,1,1,0,1,8.9,9.2,9.3,Trudny,2,6 
+133,Nieoczekiwana zmiana trasy,Warszawa,Escape Service,60 ,Przygodowy,śr. zaawansowani,11 ,134,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,1,1,0,1,1,1,1,1,0,1,0,0,9.6,10.0,10.0,Trudny,2,15 
+134,Ucieczka z więzienia,Gdańsk,Questrooms,60 ,Kryminalny,doświadczony,310 ,135,0,1,1,1,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,9.4,9.6,9.7,Trudny,5,8 
+135,Czarnobyl – ostatnia godzina,Sopot,Questrooms,60 ,Historyczny,początkujący,164 ,136,0,1,1,1,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,1,1,0,1,1,0,8.9,9.8,9.0,Średni,2,5 
+136,El Profesor: Napad Prawie Doskonały,Zakopane,LetMeOut,90 ,Kryminalny,śr. zaawansowani,10 ,137,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,9.4,9.5,9.5,Trudny,2,6 
+137,Komnata Czarnego Pana,Olsztyn,iESCAPE Olsztyn,60 ,Fantasy,początkujący,163 ,138,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,9.8,9.6,9.8,Średni,2,5 
+138,Wioska Smerfów,Wrocław,HURRY UP,60 ,Przygodowy,śr. zaawansowani,164 ,139,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,1,1,0,9.0,9.9,9.7,Średni,2,4 
+139,Klątwa Majów,Lublin,LetMeOut,60 ,Przygodowy,śr. zaawansowani,7 ,140,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,1,0,0,1,1,0,9.2,9.7,9.7,Średni,2,6 
+140,W Krainie Czarów,Bydgoszcz,Park17 Sp. z o.o.,60 ,Przygodowy,początkujący,27 ,141,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,1,0,9.1,9.7,9.5,Łatwy,2,4 
+141,Sekret Burmistrza,Katowice,Quest Cage Centrum,60 ,Fabularny,śr. zaawansowani,35 ,142,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,1,9.0,9.9,9.5,Średni,2,4 
+142,Pętla czasu,Toruń,Dom Kłódek,60 ,Przygodowy,śr. zaawansowani,19 ,143,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,0,0,8.9,9.9,9.4,Średni,2,4 
+143,El Cartel,Łódź,QUITZONE,120 ,Przygodowy,śr. zaawansowani,29 ,144,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,1,9.2,9.9,9.8,Trudny,2,6 
+144,Koszmarna Willa - Tylko umarli nie kłamią,Toruń,OPEN THE DOOR,60 ,Thriller,doświadczony,15 ,145,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,1,1,0,0,9.0,9.8,8.9,Średni,2,6 
+145,Wampir,Poznań,EXODUS,60 ,Horror,śr. zaawansowani,1 064 ,146,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,0,9.5,9.8,9.8,Trudny,2,6 
+146,Tajemnica Alchemika,Kraków,Combinator Kraków,60 ,Historyczny,śr. zaawansowani,135 ,147,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,1,8.7,8.8,9.7,Średni,2,5 
+147,5 Morderstw,Gdańsk,Questrooms,60 ,Kryminalny,śr. zaawansowani,242 ,148,0,1,1,0,0,1,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,1,0,1,9.1,9.9,9.2,Średni,2,2 
+148,Chata Wiedźmy,Warszawa,Escape Room Majdańska 18 Warszawa,60 ,Przygodowy,śr. zaawansowani,365 ,150,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,8.9,9.5,9.6,Trudny,2,4 
+149,Szaman,Poznań,EXODUS,60 ,Przygodowy,śr. zaawansowani,32 ,149,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,1,0,8.6,9.7,9.1,Średni,1,6 
+150,Wybudzenie,Szczyrk,Chata Tajemnic,60 ,Fabularny,doświadczony,10 ,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,8.8,10.0,9.4,Trudny,1,2 
+151,Pokój hotelowy - miejsce zabójstwa,Warszawa,Escape Room Majdańska 18 Warszawa,75 ,Kryminalny,doświadczony,142 ,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,1,9.2,9.8,9.3,Trudny,2,4 
+152,Sex Room,Warszawa,Black Cat Escape Room,60 ,Fabularny,początkujący,1 156 ,153,1,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,8.8,9.9,9.5,Średni,2,10 
+153,Rozdział I: Szepty,Łódź,Forest Escape,120 ,Thriller,śr. zaawansowani,29 ,154,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0,9.6,9.8,9.9,Trudny,2,6 
+154,Se7en,Szczecin,ESC Room,60 ,Thriller,doświadczony,160 ,156,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,0,1,9.6,9.9,9.9,Trudny,2,6 
+155,Skarbówka - Tajemnicza Zbrodnia,Wrocław,Exit19.pl,70 ,Fabularny,śr. zaawansowani,137 ,155,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,0,1,9.2,9.8,9.6,Trudny,2,7 
+156,Zdążyć przed patologiem,Sopot,Questrooms,60 ,Kryminalny,doświadczony,89 ,158,0,1,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,1,0,1,1,1,1,1,0,0,1,1,0,1,1,0,9.0,9.7,9.3,Trudny,2,5 
+157,Prosektorium,Wrocław,Secret Room & Brain Code,90 ,Horror,początkujący,261 ,157,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,0,1,1,0,1,9.1,9.7,9.5,Średni,2,6 
+158,Morderstwo w Orient Expressie,Chorzów,LOFTescape,60 ,Kryminalny,początkujący,272 ,159,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,1,0,0,8.9,9.8,9.6,Średni,2,5 
+159,Sacramentum,Bydgoszcz,Fabryka Czasu,75 ,Horror,doświadczony,20 ,160,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,8.8,8.6,9.3,Trudny,2,5 
+160,W gąszczu tajemnic,Katowice,Quest Cage Centrum,60 ,Fabularny,śr. zaawansowani,121 ,161,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,1,0,1,1,0,1,8.6,9.8,9.0,Trudny,2,4 
+161,Magia i Miecz,Białystok,Unlocked - Escape Room,60 ,Fantasy,doświadczony,9 ,164,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,9.5,9.9,9.5,Trudny,2,5 
+162,Cela nr 4,Warszawa,Wyjście Awaryjne,60 ,Kryminalny,śr. zaawansowani,285 ,162,0,1,1,0,0,0,1,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,1,1,0,9.1,9.4,9.4,Trudny,2,10 
+163,Protokół C.H.I.M.E.R.A.,Kraków,Gamescape Kraków,65 ,Akcja,śr. zaawansowani,48 ,163,0,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,1,1,1,1,1,0,8.9,9.8,9.1,Średni,2,6 
+164,Ostatni Egzorcyzm,Gdynia,WALKOUT,60 ,Thriller,śr. zaawansowani,14 ,166,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,1,1,1,0,1,0,0,9.6,9.8,9.8,Trudny,2,6 
+165,The Moonshiner,Gdańsk,Zorkout Escape Rooms,75 ,Przygodowy,doświadczony,78 ,165,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,1,0,1,8.9,9.5,9.2,Trudny,2,6 
+166,Skazani na śmierć,Bydgoszcz,Fabryka Czasu,60 ,Thriller,śr. zaawansowani,137 ,168,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,1,0,0,9.0,9.8,9.3,Średni,3,5 
+167,Cela śmierci,Wrocław,Trapped,60 ,Kryminalny,śr. zaawansowani,109 ,167,0,1,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,1,0,0,8.7,9.8,8.9,Średni,2,5 
+168,Kryjówka Genialnego Wynalazcy,Chorzów,Strych,60 ,Fabularny,początkujący,166 ,169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,9.0,10.0,9.3,Średni,2,5 
+169,Krakowska Bestia,Kraków,Combinator Kraków,60 ,Historyczny,początkujący,439 ,170,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,8.3,9.0,9.1,Średni,2,5 
+170,Rytuał - Historia prawdziwa,Sopot,Questrooms,60 ,Horror,śr. zaawansowani,211 ,171,0,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0,1,0,0,0,1,0,0,1,1,1,1,1,0,1,1,1,1,0,1,9.2,9.9,9.5,Trudny,2,5 
+171,Midnight Killer MK II,Wrocław,Piwnica Quest,70 ,Thriller,doświadczony,192 ,172,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,0,0,9.0,9.0,9.6,Trudny,3,5 
+172,Statek Piratów,Kraków,Combinator Kraków,60 ,Przygodowy,doświadczony,389 ,173,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,9.1,9.4,9.8,Trudny,2,5 
+173,Jaskinia Bazyliszka,Częstochowa,Dom Tajemnic,60 ,Przygodowy,śr. zaawansowani,6 ,174,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,1,1,0,1,1,0,9.5,10.0,9.7,Trudny,2,5 
+174,Sekret Profesora Lipnitzkiego,Kraków,Lock House,60 ,Thriller,śr. zaawansowani,329 ,175,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,1,0,1,9.3,9.9,9.8,Trudny,2,5 
+175,Wiedźmowa Księga,Poznań,Find a Way,75 ,Przygodowy,śr. zaawansowani,25 ,176,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,1,0,8.8,9.1,9.2,Średni,2,5 
+176,Łódź Podwodna,Warszawa,Room Escape Warszawa,60 ,Przygodowy,śr. zaawansowani,119 ,178,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,0,8.7,9.7,9.2,Trudny,2,5 
+177,Olimp,Poznań,Key To Be Free,60 ,Przygodowy,śr. zaawansowani,19 ,177,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,8.7,9.9,9.2,Średni,2,6 
+178,Tajemnica Strychu,Bydgoszcz,Fabryka Czasu,60 ,Thriller,śr. zaawansowani,309 ,179,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,1,0,0,9.1,9.9,9.6,Trudny,2,5 
+179,Stranger Room,Wrocław,In&Out,70 ,Przygodowy,doświadczony,88 ,180,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,1,1,0,0,9.0,9.8,9.4,Trudny,2,5 
+180,Krypta,Wrocław,Secret Room & Brain Code,90 ,Przygodowy,śr. zaawansowani,121 ,181,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,1,0,1,8.7,10.0,9.4,Średni,2,6 
+181,Indiana Jones i Święty Graal,Bytom,Escape Graal,60 ,Przygodowy,początkujący,66 ,182,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,9.0,10.0,9.0,Średni,2,5 
+182,Statek Piracki,Grudziądz,Find The Key,60 ,Przygodowy,śr. zaawansowani,96 ,184,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,9.9,10.0,10.0,Średni,2,5 
+183,Operacja Byfyj,Rybnik,Open The Lock,70 ,Fabularny,doświadczony,50 ,185,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,1,0,0,9.5,10.0,9.8,Trudny,2,5 
+184,Fabryka Czekolady,Chorzów,LOFTescape,60 ,Fabularny,śr. zaawansowani,196 ,186,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,0,8.8,9.5,9.4,Średni,2,4 
+185,Sekretny Gabinet Zegarmistrza,Katowice,LOFTescape,60 ,Fabularny,śr. zaawansowani,40 ,187,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,0,9.1,9.9,9.3,Trudny,2,3 
+186,Schron 2.0,Gdańsk,Podziemna pułapka,60 ,Fabularny,śr. zaawansowani,76 ,188,0,1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,0,8.5,9.7,8.6,Trudny,2,5 
+187,Pokój gangstera,Radomsko,Zagadkowo,60 ,Kryminalny,śr. zaawansowani,19 ,189,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,0,0,9.3,10.0,9.7,Trudny,2,5 
+188,Czarny Motylek,Wrocław,Fox O'clock,60 ,Thriller,śr. zaawansowani,324 ,190,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,1,0,1,8.4,9.7,9.2,Średni,2,5 
+189,Peron 9 i 3/4,Wrocław,Trap Jungle,90 ,Fantasy,śr. zaawansowani,105 ,191,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,1,0,0,8.8,9.8,9.6,Trudny,2,4 
+190,Tajemnice Elfandiru,Legnica,LockER,90 ,Fantasy,śr. zaawansowani,25 ,192,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,1,1,0,9.1,9.8,9.7,Trudny,2,5 
+191,Nemo,Poznań,EXODUS,60 ,Dla dzieci,początkujący,10 ,193,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,1,0,10,10.0,10.0,Łatwy,2,5 
+192,Wiedźma i Albercik,Wrocław,Secret Room & Brain Code,60 ,Fantasy,początkujący,11 ,194,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,8.7,9.8,9.7,Łatwy,1,4 
+193,Klątwa Zbójów,Zakopane,LetMeOut,60 ,Przygodowy,śr. zaawansowani,62 ,195,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,0,0,0,1,0,0,8.8,9.4,9.3,Średni,2,6 
+194,Sala Przesłuchań,Gdańsk,Escape Time,60 ,Thriller,eksperci,82 ,196,0,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,1,1,0,0,1,0,0,1,0,1,8.9,9.5,9.4,Trudny,2,4 
+195,Tajemnica 61. Kilometra,Gdańsk,Zorkout Escape Rooms,60 ,Przygodowy,śr. zaawansowani,65 ,197,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,1,0,0,8.5,8.9,9.0,Trudny,2,5 
+196,Legendy Camelotu,Nowy Sącz,ShareLocked,60 ,Przygodowy,śr. zaawansowani,32 ,198,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,8.9,10.0,9.7,Trudny,2,5 
+197,Horror,Chorzów,ER 1871 Inny Wymiar,70 ,Horror,śr. zaawansowani,65 ,199,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,1,8.1,8.9,9.0,Średni,2,6 
+198,Gabinet Ignacego Łukasiewicza,Bielsko-Biała,Konsorcjum Czasu,60 ,Historyczny,początkujący,31 ,200,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,8.9,9.9,9.4,Łatwy,1,4 
+199,Opętanie,Toruń,Dom Kłódek,75 ,Thriller,doświadczony,57 ,201,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,0,0,8.8,9.8,9.0,Trudny,2,8 
+200,Grobowiec Faraona,Lublin,LetMeOut,60 ,Przygodowy,doświadczony,8 ,203,0,1,1,1,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,1,0,0,9.2,9.4,9.8,Trudny,2,6 
+201,The Final Show,Gdańsk,Zorkout Escape Rooms,60 ,Fabularny,śr. zaawansowani,43 ,202,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,1,1,0,8.9,9.4,9.0,Trudny,2,4 
+202,Tajemnica starej kamienicy,Warszawa,Escape Room Majdańska 18 Warszawa,60 ,Przygodowy,śr. zaawansowani,42 ,205,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,1,0,0,8.5,9.8,8.7,Średni,2,3 
+203,Misja na Wschodzie,Szczyrk,Chata Tajemnic,80 ,Przygodowy,doświadczony,7 ,204,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,0,0,8.9,10.0,9.2,Trudny,3,8 
+204,Kraina Wiecznej Nocy,Wrocław,Secret Room & Brain Code,60 ,Przygodowy,początkujący,52 ,206,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,0,0,0,1,1,0,8.7,9.8,9.7,Średni,1,4 
+205,Cela nr 4,Bydgoszcz,Wyjście Awaryjne,60 ,Kryminalny,początkujący,318 ,207,0,1,1,1,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,1,1,1,0,1,1,0,9.3,10.0,9.5,Średni,2,5 
+206,Pionek i Kostka,Warszawa,OtoPokojeZagadek,60 ,Przygodowy,śr. zaawansowani,86 ,208,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,1,1,0,8.9,10.0,9.6,Trudny,2,5 
+207,Trójkąt Bermudzki,Toruń,Dom Kłódek,60 ,Przygodowy,początkujący,20 ,209,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,0,0,8.6,9.7,9.2,Średni,2,5 
+208,Interactive 2.0,Warszawa,Room Escape Warszawa,60 ,Przygodowy,śr. zaawansowani,38 ,210,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,0,8.6,9.4,8.7,Średni,2,5 
+209,Dżungla Azteków,Poznań,Malta Escape Room,60 ,Przygodowy,początkujący,41 ,212,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,8.7,9.6,9.4,Średni,2,5 
+210,Plan na włam,Bydgoszcz,Wyjście Awaryjne,60 ,Kryminalny,śr. zaawansowani,228 ,211,0,1,1,1,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,1,0,8.9,9.9,9.0,Średni,2,5 
+211,Nawiedzony Dwór,Nowy Sącz,ShareLocked,60 ,Przygodowy,doświadczony,19 ,213,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,8.9,9.7,9.4,Bardzo trudny,2,5 
+212,Plan A,Olsztyn,Profesor Escape Room Olsztyn,60 ,Fabularny,początkujący,16 ,214,0,1,1,1,0,0,1,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,8.7,9.7,8.5,Średni,2,6 
+213,Piwnica 2.0,Warszawa,Room Escape Warszawa,60 ,Kryminalny,śr. zaawansowani,25 ,215,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,0,8.5,9.6,8.7,Trudny,2,5 
+214,PostApo: Schron,Chorzów,ER 1871 Inny Wymiar,90 ,Fabularny,śr. zaawansowani,36 ,216,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,1,1,0,0,1,1,0,8.4,9.4,8.7,Trudny,2,6 
+215,Misja Neffo,Łódź,Alfa Fun,75 ,Przygodowy,śr. zaawansowani,12 ,217,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,1,0,9.0,9.8,9.4,Trudny,2,5 
+216,Złoto Majów,Szczyrk,Chata Tajemnic,70 ,Przygodowy,doświadczony,10 ,219,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,8.6,10.0,9.4,Trudny,1,5 
+217,Da Vinci,Poznań,Key To Be Free,60 ,Przygodowy,śr. zaawansowani,48 ,218,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,8.8,9.7,9.2,Trudny,2,6 
+218,"Misja ""Napoleon""",Gostyń,Muzeum Gostyń,90 ,Fabularny,śr. zaawansowani,21 ,220,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,9.7,9.7,9.6,Trudny,2,5 
+219,Kopalnia Diamentów,Sopot,Questrooms,70 ,Przygodowy,śr. zaawansowani,8 ,221,0,1,1,0,0,1,0,0,0,1,0,1,1,1,0,0,1,0,0,0,1,0,1,1,1,0,1,0,0,1,1,0,1,1,0,9.4,9.7,10.0,Średni,2,4 
+220,Pokój laleczki Chucky,Kraków,SCARY HOSTEL KRAKÓW,60 ,Horror,początkujący,132 ,222,0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,1,0,8.3,9.7,8.7,Średni,2,5 
+221,Kraina Czarów,Wrocław,LetMeOut,60 ,Abstrakcyjny,początkujący,107 ,223,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,1,0,8.8,9.2,9.2,Łatwy,2,5 
+222,Frankenstein,Poznań,EXODUS,60 ,Przygodowy,śr. zaawansowani,166 ,224,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,0,1,0,1,0,0,8.4,8.9,9.2,Trudny,2,7 
+223,Hannibal,Piła,LOCKED Escape Room Piła,60 ,Horror,śr. zaawansowani,16 ,225,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,9.6,10.0,9.9,Średni,2,4 
+224,Western Dziki Saloon,Poznań,Find a Way,75 ,Przygodowy,śr. zaawansowani,21 ,227,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,0,1,1,0,8.2,8.1,9.6,Średni,2,5 
+225,Śmierć w Bractwie,Gdańsk,Questrooms,60 ,Fabularny,doświadczony,175 ,228,0,1,1,0,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0,1,0,1,8.4,9.6,8.8,Trudny,2,5 
+226,Browar krasnoludzki,Katowice,Mystery Machinery,75 ,Fantasy,doświadczony,15 ,229,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,0,1,8.2,9.1,9.3,Trudny,2,6 
+227,W krainie Trolli,Toruń,Dom Kłódek,60 ,Przygodowy,początkujący,34 ,230,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,0,1,0,1,1,0,8.3,9.7,8.8,Średni,2,5 
+228,Prison Escape,Wrocław,Exit19.pl,60 ,Kryminalny,doświadczony,11 ,231,0,1,0,1,1,0,1,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,1,1,1,0,1,1,0,1,0,0,1,0,1,8.5,9.5,9.3,Trudny,2,4 
+229,Mroczne Zamczysko - Egzekucja,Toruń,OPEN THE DOOR,60 ,Przygodowy,śr. zaawansowani,11 ,232,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,9.0,9.9,9.3,Trudny,2,6 
+230,Przeklęty Pierścień,Wrocław,Secret Room & Brain Code,60 ,Przygodowy,początkujący,42 ,234,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,0,8.3,9.5,9.3,Średni,1,4 
+231,Laboratorium Tesli,Katowice,Mystery Machinery,60 ,Fabularny,śr. zaawansowani,4 ,233,0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,0,1,9.0,9.4,9.9,Trudny,2,5 
+232,Tajemnica Strefy 51,Toruń,Bunkier51,60 ,Przygodowy,śr. zaawansowani,32 ,235,0,1,1,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,8.6,9.1,9.1,Średni,2,4 
+233,Transport,Łódź,QUITZONE,120 ,Przygodowy,śr. zaawansowani,7 ,236,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,9.3,10.0,9.8,Trudny,2,6 
+234,Muzeum 2.0,Warszawa,Room Escape Warszawa,60 ,Przygodowy,śr. zaawansowani,25 ,237,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,8.6,9.6,9.1,Średni,2,5 
+235,Kolekcjoner,Poznań,Time 4 Secrets,60 ,Thriller,śr. zaawansowani,750 ,238,0,0,1,1,0,1,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,0,0,1,1,1,1,1,0,0,0,1,1,0,0,8.0,8.7,9.2,Trudny,2,5 
+236,Vinci,Nowy Sącz,ShareLocked,60 ,Fabularny,na pierwszy raz,57 ,239,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,8.8,10.0,9.6,Średni,2,5 
+237,Klątwa Czarnoksiężnika,Łódź,Drzwi Tajemnic,60 ,Przygodowy,śr. zaawansowani,28 ,241,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,1,0,1,9.0,9.4,9.5,Średni,2,5 
+238,Fantazja,Wrocław,Piwnica Quest,60 ,Abstrakcyjny,początkujący,98 ,240,0,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,1,0,8.6,9.7,8.3,Łatwy,2,5 
+239,Indiana 2.0,Warszawa,Room Escape Warszawa,60 ,Przygodowy,początkujący,28 ,242,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,1,1,1,0,1,0,0,8.5,9.0,8.5,Trudny,2,5 
+240,Zaginiony Oficer,Poznań,The Bunkier Escape Rooms,90 ,Przygodowy,śr. zaawansowani,184 ,244,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,1,0,0,9.0,9.7,9.5,Trudny,2,5 
+241,Sherlock's Room,Katowice,Quest Cage,60 ,Kryminalny,początkujący,315 ,243,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,8.6,9.7,9.2,Średni,2,5 
+242,Baker Street,Nowy Sącz,ShareLocked,60 ,Kryminalny,początkujący,98 ,245,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,8.7,9.5,9.5,Średni,2,5 
+243,Oddział psychiatryczny,Gdynia,WALKOUT,60 ,Thriller,śr. zaawansowani,162 ,246,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,1,0,0,9.2,9.5,9.2,Trudny,2,6 
+244,Zasypani,Szczecin,ESC Room,60 ,Przygodowy,początkujący,91 ,247,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,8.9,9.9,9.4,Średni,2,6 
+245,Apokalipsa,Olsztyn,iESCAPE Olsztyn,60 ,Przygodowy,eksperci,21 ,248,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,8.6,9.2,8.9,Trudny,2,5 
+246,Tajna Kwatera Dyktatora,Warszawa,8 Gates Escape Room,60 ,Przygodowy,śr. zaawansowani,44 ,249,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,1,1,0,8.7,9.6,9.0,Średni,2,5 
+247,Laboratorium strachu,Grudziądz,Find The Key,60 ,Thriller,doświadczony,92 ,251,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,9.8,9.9,9.9,Trudny,2,6 
+248,Prosektorium,Katowice,LOFTescape,60 ,Thriller,początkujący,25 ,250,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,0,1,8.6,10.0,9.4,Średni,2,5 
+249,Okręt podwodny,Gdańsk,Podziemna pułapka,60 ,Przygodowy,doświadczony,61 ,252,0,1,1,1,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,1,9.0,9.6,9.1,Trudny,2,4 
+250,Podróż,Warszawa,Dom Zagadek,60 ,Przygodowy,doświadczony,31 ,253,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,8.4,9.2,8.9,Średni,2,8 
+251,Alchemik,Poznań,Key To Be Free,60 ,Przygodowy,śr. zaawansowani,14 ,226,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,1,1,0,8.5,10.0,9.0,Średni,2,6 
+252,W odległej galaktyce,Bydgoszcz,Break The Brain,75 ,Przygodowy,doświadczony,244 ,254,0,1,1,1,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,1,1,0,8.2,9.4,8.8,Trudny,2,5 
+253,Program Goździk,Poznań,The Bunkier Escape Rooms,90 ,Thriller,początkujący,66 ,255,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,0,1,0,1,0,1,8.9,9.9,9.7,Średni,2,4 
+254,Excalibur,Poznań,Key To Be Free,60 ,Przygodowy,początkujący,67 ,256,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,8.3,9.9,9.0,Trudny,2,7 
+255,Sherlock Holmes,Wrocław,LetMeOut,60 ,Przygodowy,śr. zaawansowani,21 ,257,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,0,0,8.7,9.7,9.7,Średni,2,5 
+256,Kraina Czarów,Zakopane,LetMeOut,60 ,Abstrakcyjny,początkujący,81 ,258,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,0,8.5,8.8,9.4,Średni,2,6 
+257,Nowa Odyseja Kosmiczna,Warszawa,Quest Hunt - Escape Room,90 ,Futurystyczny,doświadczony,3 ,259,0,1,1,0,0,1,0,1,0,1,0,1,0,1,0,0,1,0,0,0,1,0,1,1,0,0,1,1,0,1,0,0,1,0,0,9.0,9.5,10.0,Trudny,2,7 
+258,Zodiak,Bielsko-Biała,HURRY UP,60 ,Thriller,doświadczony,67 ,260,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,0,1,8.1,9.2,8.8,Trudny,3,5 
+259,Noc żywych trupów,Wrocław,Trap Jungle,75 ,Przygodowy,doświadczony,71 ,261,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,1,8.9,9.9,9.2,Średni,2,5 
+260,Strych Szalonego Alchemika,Katowice,Quest Cage,60 ,Thriller,śr. zaawansowani,251 ,263,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,8.0,9.6,9.1,Trudny,2,4 
+261,Krwawy wódz,Gdańsk,Escape Time,60 ,Thriller,doświadczony,276 ,264,0,1,1,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,1,8.6,9.6,9.0,Trudny,2,6 
+262,Skarbiec,Katowice,Mystery Machinery,30 ,Fabularny,śr. zaawansowani,5 ,262,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,1,0,1,8.4,10.0,7.9,Średni,2,4 
+263,Zaklęte Amulety,Kraków,Gamescape Kraków,65 ,Przygodowy,śr. zaawansowani,14 ,265,0,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,1,1,0,8.4,9.3,9.2,Trudny,2,8 
+264,Chata guślarki,Gdańsk,Escape Time,60 ,Przygodowy,początkujący,195 ,266,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,1,0,8.4,9.6,8.6,Średni,2,6 
+265,Domek w górach,Karpacz,Pokoje Tajemnic,60 ,Przygodowy,śr. zaawansowani,52 ,267,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,8.4,8.2,8.2,Średni,2,5 
+266,Dziki Zachód,Rybnik,Open The Lock,60 ,Fabularny,początkujący,46 ,268,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,9.0,9.9,9.5,Średni,2,5 
+268,Walkiria,Poznań,Key To Be Free,60 ,Historyczny,śr. zaawansowani,137 ,270,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,0,0,1,0,0,8.0,9.4,8.9,Trudny,2,7 
+269,Bon Appetit,Łódź,Alfa Fun,75 ,Horror,śr. zaawansowani,27 ,271,0,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0,1,1,1,0,1,0,0,1,1,1,1,0,1,8.2,9.9,8.6,Średni,2,6 
+270,Tajemnica Księgi Lasu,Wrocław,LetMeOut,60 ,Przygodowy,początkujący,19 ,272,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,1,0,8.2,9.3,8.6,Średni,2,5 
+271,Bogata Piwnica,Bielsko-Biała,Tajemnicza Piwnica - ER Group sp. z o. o.,60 ,Przygodowy,doświadczony,2 ,273,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,1,1,1,1,0,8.5,10.0,10.0,Trudny,2,4 
+272,Odeon,Radom,Blink Escape Radom,75 ,Thriller,doświadczony,17 ,274,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,1,0,1,9.2,10.0,9.5,Bardzo trudny,2,6 
+273,Starcie Mistrzów,Kraków,Gamescape Kraków,45 ,Przygodowy,doświadczony,5 ,275,0,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,0,0,1,1,0,9.5,10.0,10.0,Trudny,2,10 
+274,Wyspa Tajemnic,Poznań,Find a Way,60 ,Przygodowy,początkujący,11 ,277,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,1,1,1,1,1,1,1,0,8.3,9.8,8.8,Łatwy,2,5 
+275,Gniew Olimpu,Bydgoszcz,Break The Brain,60 ,Przygodowy,początkujący,181 ,276,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,1,0,8.5,9.7,9.0,Średni,2,5 
+276,Koszmar,Gdynia,WALKOUT,60 ,Horror,doświadczony,42 ,278,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,1,0,1,8.9,9.5,9.2,Trudny,2,6 
+277,Pegazus,Warszawa,Dom Zagadek,60 ,Przygodowy,początkujący,129 ,279,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,8.1,9.1,8.9,Średni,2,8 
+278,Cela,Łódź,Tkalnia Zagadek,60 ,Kryminalny,początkujący,117 ,280,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,0,0,0,1,1,0,8.5,9.8,8.7,Średni,2,5 
+279,Skarb Czarnobrodego,Poznań,Time 4 Secrets,60 ,Przygodowy,śr. zaawansowani,601 ,281,0,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,8.7,9.7,9.4,Trudny,2,5 
+280,Cisza Nocna,Bytom,Can you escape?,60 ,Kryminalny,śr. zaawansowani,83 ,282,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,8.1,9.5,8.2,Średni,3,6 
+281,Rycerski,Warszawa,Room Escape Warszawa,60 ,Historyczny,początkujący,266 ,283,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,8.0,8.3,9.4,Trudny,2,5 
+282,Indiana Jones i Świątynia Majów,Piła,LOCKED Escape Room Piła,60 ,Przygodowy,śr. zaawansowani,1 opinia,284,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,10,10.0,10.0,Średni,2,4 
+283,Skrzynie Umarlaków,Kraków,Gamescape Kraków,65 ,Przygodowy,śr. zaawansowani,16 ,285,0,1,1,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,1,1,1,0,1,1,0,8.5,9.7,8.9,Średni,2,6 
+284,Testament,Radom,Blink Escape Radom,75 ,Fabularny,śr. zaawansowani,361 ,286,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,1,0,8.7,9.4,8.7,Trudny,2,6 
+285,Chatka Neeko,Konin,Next Level,60 ,Przygodowy,śr. zaawansowani,3 ,289,0,1,1,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,1,1,1,9.1,10.0,9.3,Średni,2,4 
+286,Diabelski Cyrk,Lublin,LetMeOut,60 ,Fabularny,śr. zaawansowani,4 ,287,0,1,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,1,0,9.0,10.0,9.7,Średni,2,6 
+287,Alicja w Krainie Czarów,Gdańsk,Enigmat Escape,60 ,Fantasy,początkujący,159 ,288,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,1,0,8.4,9.5,8.3,Średni,2,5 
+288,Tożsamość,Wrocław,Exit19.pl,60 ,Fabularny,śr. zaawansowani,244 ,290,0,1,0,1,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,1,0,0,1,0,0,7.8,9.8,8.7,Średni,2,4 
+289,W krainie czarów,Łódź,ExitRoom ™,60 ,Przygodowy,śr. zaawansowani,164 ,291,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,8.6,9.5,9.2,Średni,2,5 
+290,Wagary,Rybnik,Open The Lock,60 ,Fabularny,śr. zaawansowani,49 ,292,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,8.5,9.9,9.1,Średni,2,5 
+291,Hrabia Drakula,Rzeszów,WydostanSie Escape Rooms,60 ,Przygodowy,doświadczony,58 ,293,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,1,0,7.9,9.1,7.9,Trudny,2,5 
+292,Wehikuł Czasu,Warszawa,Room Escape Warszawa,60 ,Fantasy,śr. zaawansowani,148 ,294,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,0,7.9,9.3,8.1,Średni,2,5 
+293,Pościg za El Patronem,Olsztyn,Profesor Escape Room Olsztyn,60 ,Kryminalny,śr. zaawansowani,14 ,295,0,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,0,7.6,8.8,7.8,Średni,2,6 
+294,Cela Hannibala Lectera,Kraków,SCARY HOSTEL KRAKÓW,60 ,Thriller,śr. zaawansowani,149 ,296,0,1,1,0,0,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,1,0,0,1,1,1,0,1,0,0,1,1,1,0,1,7.6,8.8,8.0,Średni,1,2 
+295,Skarb piratów,Kraków,Lock & Roll,60 ,Przygodowy,początkujący,100 ,297,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,0,0,8.4,9.8,8.9,Łatwy,2,4 
+296,Laboratorium Dextera,Warszawa,OtoPokojeZagadek,60 ,Przygodowy,śr. zaawansowani,118 ,298,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,1,1,0,7.2,9.9,7.5,Trudny,2,5 
+297,Upiór z Alt Allenstein,Olsztyn,iESCAPE Olsztyn,60 ,Thriller,śr. zaawansowani,23 ,299,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,0,0,8.8,10.0,9.4,Średni,2,5 
+298,Ostatni Lodowiec,Olsztyn,iESCAPE Olsztyn,60 ,Przygodowy,śr. zaawansowani,8 ,300,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,8.6,9.7,9.0,Średni,2,5 
+299,Zapomniany pokój,Gdynia,WALKOUT,60 ,Przygodowy,doświadczony,130 ,301,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,1,0,0,8.6,8.6,8.6,Trudny,2,6 
+300,Szeol - Schron Ostateczny,Poznań,The Bunkier Escape Rooms,90 ,Przygodowy,śr. zaawansowani,37 ,304,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,1,0,0,8.0,9.6,9.2,Trudny,2,5 
+301,New York Nowy Jork,Wisła,Zamek Zagadek,70 ,Historyczny,eksperci,22 ,302,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,8.3,9.0,9.3,Trudny,2,8 
+302,Chata Wiedźmy,Wrocław,Trapped,60 ,Thriller,śr. zaawansowani,31 ,303,0,1,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,1,0,1,7.4,8.7,8.1,Średni,2,4 
+303,Piła - Odkupienie,Gdynia,WALKOUT,60 ,Thriller,śr. zaawansowani,40 ,305,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,0,8.4,9.0,8.3,Średni,2,6 
+304,Pokój babci,Wrocław,Secret Room & Brain Code,60 ,Kryminalny,początkujący,202 ,306,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,1,0,7.7,9.8,9.0,Średni,2,5 
+305,Czarna Dziura,Rzeszów,WydostanSie Escape Rooms,60 ,Fabularny,śr. zaawansowani,16 ,307,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,8.1,9.7,8.0,Trudny,2,5 
+306,Operacja Mindfall kryptonim Spiderweb,Kraków,Gamescape Kraków,120 ,Akcja,śr. zaawansowani,2 ,309,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,10,10.0,10.0,Średni,2,6 
+307,Piła,Piła,LOCKED Escape Room Piła,60 ,Horror,śr. zaawansowani,35 ,308,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,9.0,9.5,9.7,Średni,2,4 
+308,Matrix,Łódź,ExitRoom ™,60 ,Fabularny,doświadczony,46 ,310,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,0,0,8.1,6.4,9.6,Trudny,3,6 
+309,Uśpieni,Słupsk,TrapRooms,80 ,Przygodowy,doświadczony,22 ,311,0,0,1,0,0,0,0,0,1,1,1,1,0,1,0,0,1,0,0,0,1,0,0,1,1,0,1,0,1,1,1,0,1,0,1,8.4,9.3,7.3,Średni,2,6 
+310,Lądowanie na Księżycu,Poznań,Key To Be Free,60 ,Przygodowy,śr. zaawansowani,13 ,314,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,7.9,9.8,8.5,Trudny,2,6 
+311,Prezydent,Łódź,Tkalnia Zagadek,60 ,Thriller,doświadczony,16 ,313,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,8.5,9.8,8.4,Trudny,2,5 
+312,Gniew Bogów,Gdynia,WALKOUT,60 ,Fantasy,doświadczony,113 ,312,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,0,0,7.2,7.7,7.8,Średni,2,6 
+313,Na ratunek ludzkości,Rzeszów,WydostanSie Escape Rooms,60 ,Przygodowy,początkujący,18 ,315,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,1,0,7.5,9.7,8.1,Trudny,2,5 
+314,Szkoła Magii - pierwszy rok,Bydgoszcz,Break The Brain,90 ,Fantasy,doświadczony,6 ,183,0,1,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,1,0,1,1,1,0,10,10.0,10.0,Średni,2,4 
+315,Narnia,Warszawa,Team Exit - Pokoje zagadek -Escape Room 24,60 ,Fabularny,śr. zaawansowani,35 ,316,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,1,0,7.3,7.2,7.1,Średni,2,6 
+316,Krematorium - Śledztwo,Nowy Sącz,The Locked Room,60 ,Kryminalny,śr. zaawansowani,6 ,317,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,8.5,9.6,8.9,Trudny,2,4 
+317,Spętani w raju,Tczew,Escape Room Tczew,60 ,Abstrakcyjny,śr. zaawansowani,22 ,319,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,1,0,0,8.4,9.9,8.5,Średni,2,2 
+318,Epidemia,Białystok,Logic Games - Escape Room Białystok,60 ,Thriller,eksperci,59 ,318,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,8.3,8.7,9.1,Bardzo trudny,2,5 
+319,Eksperyment,Radom,Blink Escape Radom,60 ,Abstrakcyjny,śr. zaawansowani,18 ,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,8.3,10.0,8.5,Średni,2,6 
+320,Mikołaj (Święty :) ),Poznań,EXODUS,60 ,Fantasy,początkujący,22 ,321,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,1,0,8.1,9.1,9.0,Średni,2,4 
+321,Teatr żywych lalek,Gdańsk,Escape Gdańsk,60 ,Thriller,doświadczony,69 ,322,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,9.2,9.9,9.1,Trudny,2,5 
+322,Noc w Las Vegas,Tczew,Escape Room Tczew,60 ,Przygodowy,doświadczony,57 ,323,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,1,1,0,8.8,9.7,9.5,Trudny,2,6 
+323,Zombie apokalipsa,Gdańsk,Enigmat Escape,60 ,Fantasy,śr. zaawansowani,78 ,324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1,0,0,1,0,0,9.0,9.9,8.2,Trudny,2,5 
+324,Gra Miejska - Illuminati 2,Poznań,Escapelandia,120 ,Fabularny,początkujący,1 opinia,326,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,10,10.0,10.0,Łatwy,2,6 
+325,Strefa Cienia,Radom,Blink Escape Radom,60 ,Przygodowy,śr. zaawansowani,13 ,325,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,8.7,10.0,8.6,Trudny,2,6 
+326,Rzeź Niewiniątek,Częstochowa,Dom Tajemnic,60 ,Horror,śr. zaawansowani,1 opinia,327,0,1,1,0,0,1,0,1,0,0,1,1,0,1,0,0,0,0,0,1,1,0,1,1,1,0,0,1,0,1,0,1,1,0,1,9.0,10.0,10.0,Łatwy,2,5 
+327,Pogrzebani,Warszawa,SHOW ESCAPE,60 ,Thriller,eksperci,73 ,328,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,7.8,8.9,9.3,Bardzo trudny,1,2 
+328,Mroczna Puszcza,Nowy Sącz,4Fun Escape Room Nowy Sącz,60 ,Thriller,doświadczony,57 ,329,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,1,0,0,7.9,8.3,9.9,Bardzo trudny,2,6 
+329,Ucieczka z Czarnej Perły,Bielsko-Biała,Escape House,60 ,Przygodowy,śr. zaawansowani,64 ,330,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,1,0,7.4,9.8,7.9,Średni,2,5 
+330,ShowShank,Warszawa,SHOW ESCAPE,60 ,Kryminalny,śr. zaawansowani,88 ,331,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,7.9,8.8,8.7,Średni,2,10 
+331,Sekret Przedzamcza,Leśna,Zamek Czocha,60 ,Kryminalny,śr. zaawansowani,4 ,332,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,8.7,10.0,8.5,Średni,2,5 
+332,Łódź Podwodna,Katowice,Quest Cage,60 ,Fabularny,doświadczony,195 ,333,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,1,8.0,9.4,8.6,Trudny,2,4 
+333,Pułapka Szeryfa,Gdańsk,Escape Gdańsk,60 ,Przygodowy,śr. zaawansowani,35 ,334,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,8.0,9.9,8.5,Średni,2,5 
+334,Tajemnica Faraona,Krynica,Escape Room Krynica,60 ,Przygodowy,początkujący,10 ,335,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,8.2,9.8,9.8,Średni,2,6 
+335,Zbrodnia w domu leśniczego,Olsztyn,iESCAPE Olsztyn,60 ,Kryminalny,śr. zaawansowani,27 ,336,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,8.2,9.7,8.7,Średni,2,5 
+336,Misja specjalna,Białystok,Logic Games - Escape Room Białystok,60 ,Kryminalny,doświadczony,77 ,337,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,6.4,9.8,8.7,Trudny,2,5 
+337,Napad na bank - Dziki Zachód,Olsztyn,iESCAPE Olsztyn,60 ,Przygodowy,śr. zaawansowani,2 ,338,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,1,1,0,10,10.0,10.0,Trudny,2,4 
+338,Cyberdżungla,Warszawa,Quest Hunt - Escape Room,60 ,Fantasy,śr. zaawansowani,15 ,340,0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,1,0,7.8,9.7,8.0,Średni,2,5 
+339,Das Motel,Kraków,LOST BAR,70 ,Thriller,doświadczony,63 ,339,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,8.0,8.0,8.1,Trudny,4,10 
+340,Wyspa odkrywców,Białystok,Logic Games - Escape Room Białystok,60 ,Przygodowy,początkujący,74 ,341,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,9.0,10.0,9.3,Średni,2,5 
+341,Serce Grozy,Bielsko-Biała,Escape House,60 ,Thriller,doświadczony,14 ,343,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0,0,8.2,10.0,9.8,Bardzo trudny,2,4 
+342,Tajemnicza Posiadłość,Bielsko-Biała,Escape House,60 ,Przygodowy,śr. zaawansowani,78 ,342,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,7.3,8.5,7.9,Średni,2,5 
+344,Redrum,Łódź,ExitRoom ™,60 ,Thriller,śr. zaawansowani,135 ,344,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,1,7.7,9.6,8.5,Trudny,2,5 
+345,Lunapark 2,Toruń,OPEN THE DOOR,60 ,Przygodowy,śr. zaawansowani,11 ,345,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,0,8.2,10.0,8.8,Średni,2,6 
+346,Schron bankowy,Wrocław,Piwnica Quest,60 ,Kryminalny,początkujący,242 ,346,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,1,1,0,7.3,9.2,7.8,Średni,2,5 
+347,Eksperyment,Radomsko,Zagadkowo,60 ,Przygodowy,śr. zaawansowani,18 ,347,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,7.8,10.0,8.1,Trudny,2,5 
+348,Opuszczony Teatr Lalek,Wrocław,Secret Room & Brain Code,60 ,Thriller,początkujący,237 ,348,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,1,0,6.6,8.7,9.0,Trudny,2,5 
+349,Reaktor,Łódź,Tkalnia Zagadek,60 ,Thriller,doświadczony,54 ,349,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,7.5,9.8,8.5,Trudny,2,5 
+350,Baza Agenta SB,Żory,Open The Lock,60 ,Fabularny,początkujący,24 ,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,7.8,8.4,8.1,Trudny,2,5 
+351,Halloween,Nowy Sącz,The Locked Room,60 ,Horror,doświadczony,24 ,351,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,1,0,0,8.4,9.8,8.1,Średni,2,4 
+352,Czarnobyl - reaktor nr 4,Poznań,Malta Escape Room,60 ,Przygodowy,śr. zaawansowani,21 ,352,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,7.9,8.9,8.7,Średni,2,4 
+353,Cube,Krynica,Escape Room Krynica,60 ,Abstrakcyjny,początkujący,16 ,353,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,7.5,9.8,9.1,Średni,2,6 
+354,Tupolew,Kraków,ExitRoom ™,60 ,Akcja,śr. zaawansowani,36 ,354,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,7.3,8.6,9.3,Średni,2,4 
+355,Anatomia Zbrodni 2,Kraków,Gamescape Kraków,65 ,Thriller,śr. zaawansowani,32 ,358,0,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,1,1,1,0,1,7.1,7.8,8.0,Trudny,2,7 
+356,Prison Break,Kraków,ExitRoom ™,60 ,Fabularny,doświadczony,43 ,355,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,0,7.3,8.3,7.7,Średni,2,5 
+357,Zmieniając rzeczywistość,Warszawa,Zagadkownia,60 ,Abstrakcyjny,początkujący,222 ,356,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,0,6.7,8.8,6.5,Średni,2,6 
+358,Zbrodnia,Łódź,Tkalnia Zagadek,60 ,Kryminalny,początkujący,59 ,357,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,7.7,9.8,8.2,Średni,2,5 
+359,Seksmisja,Kraków,ExitRoom ™,60 ,Przygodowy,śr. zaawansowani,29 ,359,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,1,0,0,1,0,0,6.9,9.1,7.1,Średni,2,5 
+360,Sekretny gabinet Al'a Capone,Kraków,SCARY HOSTEL KRAKÓW,60 ,Kryminalny,śr. zaawansowani,112 ,360,0,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,1,7.6,9.2,8.5,Średni,2,5 
+361,Sherlock Holmes,Lublin,LetMeOut,60 ,Przygodowy,śr. zaawansowani,5 ,361,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,1,0,8.2,8.8,9.2,Średni,2,6 
+362,Piraci,Wrocław,Trapped,60 ,Przygodowy,śr. zaawansowani,142 ,362,0,1,1,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,1,0,7.8,9.5,8.5,Średni,2,4 
+363,Orion 53 - Space Challenge,Białystok,Logic Games - Escape Room Białystok,60 ,Przygodowy,doświadczony,16 ,363,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,8.8,9.6,9.7,Trudny,2,5 
+364,Pokój Zagadka,Warszawa,Dom Zagadek,60 ,Abstrakcyjny,początkujący,59 ,364,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,7.5,9.3,8.0,Średni,2,8 
+365,Killer,Kraków,ExitRoom ™,60 ,Kryminalny,początkujący,22 ,366,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,7.1,9.7,8.0,Średni,2,5 
+366,Zakład Karny,Wrocław,LetMeOut,60 ,Przygodowy,na pierwszy raz,13 ,365,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,0,0,8.3,9.2,8.3,Średni,2,5 
+367,Pokój agenta Snow,Gdynia,WALKOUT,60 ,Kryminalny,początkujący,119 ,367,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,0,0,1,1,0,7.4,7.7,8.1,Średni,2,6 
+368,Klątwa Faraona,Białystok,Logic Games - Escape Room Białystok,60 ,Przygodowy,śr. zaawansowani,21 ,368,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,1,1,0,7.8,8.5,8.8,Średni,2,5 
+369,Espace Room,Jelenia Góra,King of the Lock,75 ,Przygodowy,śr. zaawansowani,4 ,369,0,1,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,0,0,8.8,10.0,8.9,Trudny,2,6 
+370,Psychiatryk,Wrocław,LetMeOut,60 ,Przygodowy,początkujący,35 ,370,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,0,0,6.4,7.2,9.1,Średni,2,5 
+371,Świątynia Majów,Nowy Sącz,The Locked Room,60 ,Przygodowy,początkujący,31 ,371,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,1,1,0,7.1,9.2,7.8,Średni,2,5 
+372,Chata Wiedźmy,Rzeszów,WydostanSie Escape Rooms,60 ,Fantasy,początkujący,44 ,372,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,5.7,9.0,5.9,Średni,2,6 
+373,Tajemnicza Dżungla,Wrocław,Dom Zagadek Exitus,45 ,Dla dzieci,początkujący,3 ,373,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,10,10.0,10.0,Łatwy,2,6 
+374,Amber Gold,Kraków,ExitRoom ™,60 ,Kryminalny,początkujący,15 ,374,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0,0,1,0,0,6.8,9.0,6.4,Średni,2,5 
+375,James Bond,Kraków,ExitRoom ™,60 ,Kryminalny,doświadczony,26 ,375,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,1,5.7,8.1,4.9,Średni,2,5 
+376,Serce Roztocza,Zamość,Escape Room Zamość,80 ,Przygodowy,doświadczony,4 ,376,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,0,9.3,10.0,9.5,Średni,2,6 
+377,Polana,Warszawa,Dom Zagadek,60 ,Przygodowy,na pierwszy raz,26 ,377,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,7.1,8.7,7.9,Średni,2,6 
+378,Psychoterapia,Kraków,LOST BAR,70 ,Fabularny,początkujący,16 ,378,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,3.6,4.1,3.3,Średni,2,6 
+379,Militarny Kryzys,Zamość,Escape Room Zamość,80 ,Fabularny,śr. zaawansowani,4 ,379,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,1,0,0,1,0,0,7.1,7.3,8.3,Trudny,2,6 
+380,Projekt Z.E.U.S.,Bielsko-Biała,Konsorcjum Czasu,75 ,Przygodowy,śr. zaawansowani,6 ,380,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,8.8,10.0,10.0,Średni,1,6 
+381,Saloon,Warszawa,Team Exit - Pokoje zagadek -Escape Room 24,60 ,Przygodowy,śr. zaawansowani,20 ,381,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,7.4,8.7,7.4,Średni,2,6 
+382,Misja A.V.A.T.A.R,Kraków,Locked UP,60 ,Przygodowy,śr. zaawansowani,8 ,382,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,1,1,0,7.7,9.3,6.8,Średni,2,5 
+383,Rytuał,Kielce,Unlock the door,50 ,Thriller,początkujący,2 ,383,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,10,10.0,10.0,Średni,2,4 
+384,Poza Światem,Warszawa,Dom Zagadek,60 ,Przygodowy,śr. zaawansowani,34 ,384,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,6.9,8.6,7.7,Średni,2,6 
+385,Czarna Perła,Gorzów Wielkopolski,Open The Lock,60 ,Przygodowy,na pierwszy raz,21 ,385,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,0,6.9,4.9,7.6,Średni,2,5 
+386,P@ssWord,Warszawa,Dom Zagadek,60 ,Abstrakcyjny,początkujący,16 ,386,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,7.1,9.2,7.7,Średni,2,6 
+387,Klątwa Tutenchamona,Warszawa,Zagadkownia,60 ,Przygodowy,doświadczony,192 ,387,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,0,7.0,9.2,7.5,Trudny,2,6 
+388,Gra Miejska - Illuminati,Poznań,Escapelandia,180 ,Fabularny,początkujący,6 ,388,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,8.0,10.0,8.7,Średni,2,6 
+389,Ostatnia cela,Słupsk,TrapRooms,60 ,Kryminalny,śr. zaawansowani,39 ,389,0,0,1,0,0,0,0,0,1,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,1,1,1,0,1,0,1,7.4,9.3,7.5,Średni,2,8 
+390,Guantanamo,Gorzów Wielkopolski,Open The Lock,60 ,Kryminalny,doświadczony,18 ,390,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,7.2,5.9,7.6,Średni,2,5 
+391,Agent FBI,Warszawa,SHOW ESCAPE,60 ,Kryminalny,doświadczony,7 ,391,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,6.0,10.0,6.7,Bardzo trudny,2,4 
+392,Piaski Pustyni,Konin,Next Level,60 ,Przygodowy,śr. zaawansowani,3 ,393,0,1,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,1,1,1,0,1,8.6,9.9,9.4,Średni,2,4 
+393,Leśne Trolle,Szczecin,Warsztatownia,60 ,Przygodowy,początkujący,8 ,392,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,9.2,6.6,10.0,Łatwy,2,6 
+394,Przygody Indiana Jones,Warszawa,Team Exit - Pokoje zagadek -Escape Room 24,60 ,Przygodowy,śr. zaawansowani,7 ,395,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1,0,7.8,9.4,7.0,Trudny,3,7 
+395,Skarby Majów,Poznań,Key To Be Free,60 ,Przygodowy,początkujący,106 ,394,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,0,0,1,1,0,6.7,9.7,6.4,Średni,2,8 
+396,Opuszczona Piwnica,Gorzów Wielkopolski,Open The Lock,60 ,Thriller,śr. zaawansowani,14 ,396,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,1,0,1,1,0,1,1,0,0,0,0,1,0,0,7.7,5.7,7.6,Średni,2,4 
+397,Kryptonim Dżungla,Opole,Escape Room Chata Zagadek,60 ,Przygodowy,na pierwszy raz,7 ,397,0,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,1,0,7.3,9.5,8.4,Średni,2,5 
+398,Zielona Mila,Warszawa,SHOW ESCAPE,60 ,Przygodowy,doświadczony,9 ,398,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,0,0,1,1,0,7.7,9.6,9.0,Średni,2,12 
+399,Redrum,Żory,Open The Lock,60 ,Horror,śr. zaawansowani,29 ,399,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,1,6.3,6.0,7.5,Trudny,2,5 
+400,Łowca Umysłów,Giżycko,Pokoje zagadek,60 ,Thriller,śr. zaawansowani,6 ,400,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,8.4,8.8,8.2,Trudny,2,5 
+401,Wolfenstein,Kraków,ExitRoom ™,60 ,Fabularny,śr. zaawansowani,60 ,401,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,1,7.0,9.9,8.9,Średni,2,4 
+402,Mikołajowa Misja,Wisła,Zamek Zagadek,60 ,Przygodowy,na pierwszy raz,7 ,402,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,8.3,9.3,9.7,Średni,2,6 
+403,Apartament,Łódź,Alfa Fun,60 ,Przygodowy,początkujący,18 ,403,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,1,0,7.3,9.6,7.8,Średni,2,4 
+404,Krypta wampira,Warszawa,Zagadkownia,60 ,Thriller,śr. zaawansowani,201 ,404,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,0,0,5.4,7.2,6.6,Średni,2,5 
+405,S.O.S.,Iława,Open The Lock,60 ,Przygodowy,początkujący,6 ,405,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,1,0,1,1,1,0,8.8,10.0,9.1,Średni,2,5 
+406,Rozbitkowie w dżungli,Warszawa,Zagadkownia,60 ,Przygodowy,śr. zaawansowani,101 ,406,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,1,1,0,6.2,8.0,7.0,Średni,2,6 
+407,Chory Lekarz,Zamość,Escape Room Zamość,60 ,Thriller,początkujący,2 ,408,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,0,10,10.0,10.0,Średni,2,6 
+408,Bezludna Wyspa,Nowy Sącz,4Fun Escape Room Nowy Sącz,60 ,Przygodowy,śr. zaawansowani,9 ,407,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,6.0,5.5,8.3,Średni,2,6 
+409,Śmierć muzealnika,Stargard,Muzeum Archeologiczno-Historyczne Stargard,60 ,Kryminalny,doświadczony,7 ,409,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,9.6,10.0,9.4,Trudny,2,6 
+410,Laboratorium Frankensteina,Lublin,LetMeOut,60 ,Przygodowy,początkujący,5 ,410,0,1,1,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,7.4,9.0,7.2,Średni,2,6 
+411,Duchy Bastei,Stargard,Muzeum Archeologiczno-Historyczne Stargard,60 ,Thriller,początkujący,7 ,411,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,0,0,1,1,0,7.5,7.7,7.9,Trudny,2,6 
+412,Cela,Karpacz,Pokoje Tajemnic,60 ,Kryminalny,śr. zaawansowani,38 ,412,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,6.4,9.7,7.3,Łatwy,2,5 
+413,Szalony naukowiec,Żory,Open The Lock,60 ,Fabularny,śr. zaawansowani,12 ,413,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,5.7,7.0,5.5,Średni,2,5 
+414,Kara Śmierci - Średniowieczny Loch,Wrocław,LetMeOut,60 ,Przygodowy,początkujący,38 ,414,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,0,0,3.2,6.0,2.6,Średni,2,5 
+415,Więzienie,Wrocław,Secret Room & Brain Code,60 ,Kryminalny,początkujący,203 ,416,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,1,0,6.2,9.3,8.3,Średni,2,5 
+416,Posterunek 13,Bielsko-Biała,HURRY UP,60 ,Kryminalny,początkujący,50 ,415,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,1,0,6.7,8.2,7.6,Średni,2,5 
+417,Cosa nostra,Poznań,Time 4 Secrets,60 ,Kryminalny,śr. zaawansowani,203 ,418,0,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,8.2,9.8,8.9,Trudny,2,4 
+418,Amazonia - Wyprawa w nieznane,Szczecin,Escape Room Szczecin,60 ,Przygodowy,śr. zaawansowani,8 ,417,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,1,0,5.5,7.4,9.2,Średni,2,5 
+419,Muzeum Tortur,Rzeszów,WydostanSie Escape Rooms,60 ,Historyczny,początkujący,21 ,419,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,6.5,9.7,7.1,Średni,2,6 
+420,Tajemnica Egipskich Bogów,Gorzów Wielkopolski,Open The Lock,60 ,Historyczny,początkujący,20 ,420,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,5.8,4.5,8.3,Trudny,2,5 
+421,Nawiedzony Schowek,Nowy Sącz,4Fun Escape Room Nowy Sącz,60 ,Horror,śr. zaawansowani,10 ,421,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,4.9,7.6,5.8,Średni,2,6 
+422,Wyspa Skarbów,Giżycko,Pokoje zagadek,60 ,Przygodowy,początkujący,3 ,422,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,9.0,10.0,9.2,Łatwy,2,5 
+423,Szpieg z PRL-u,Kraków,Zoltar Park Kraków,45 ,Kryminalny,śr. zaawansowani,5 ,423,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,1,0,1,1,0,1,7.6,10.0,8.7,Średni,2,5 
+424,Czarownice z Eylau,Iława,Open The Lock,60 ,Thriller,śr. zaawansowani,5 ,424,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,1,0,0,1,0,0,5.6,10.0,5.1,Trudny,2,5 
+425,Bunkier 2 : Biuro Komendanta,Rzeszów,WydostanSie Escape Rooms,60 ,Kryminalny,początkujący,9 ,425,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,7.1,9.3,7.9,Średni,2,5 
+426,Legenda Króla Artura,Kraków,Locked UP,60 ,Przygodowy,początkujący,6 ,427,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,1,1,0,7.6,8.5,9.0,Średni,2,5 
+427,Na Skraju Lasu,Gorzów Wielkopolski,Open The Lock,60 ,Przygodowy,śr. zaawansowani,9 ,426,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,7.0,6.6,8.5,Średni,2,5 
+428,Opuszczona klinika,Kielce,Unlock the door,50 ,Thriller,początkujący,4 ,428,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,1,1,1,0,8.0,9.6,8.0,Łatwy,2,5 
+429,Skarb Templariuszy,Iława,Open The Lock,60 ,Przygodowy,początkujący,10 ,429,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,1,1,0,0,1,1,0,7.4,5.2,8.0,Łatwy,2,5 
+430,Szalone lata 80'te,Janów Lubelski,Zoom Natury,60 ,Fabularny,śr. zaawansowani,4 ,430,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,8.5,9.8,9.9,Średni,2,8 
+431,Magia Zielonej Komnaty,Kraków,Locked UP,60 ,Przygodowy,doświadczony,8 ,431,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,1,1,0,6.1,8.2,6.6,Trudny,2,5 
+432,Magiczny Las,Łódź,Tkalnia Zagadek KIDS,60 ,Dla dzieci,początkujący,4 ,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,8.3,9.6,9.3,Łatwy,2,7 
+433,Atomowa Groza,Kraków,Zoltar Park Kraków,70 ,Historyczny,doświadczony,7 ,433,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,1,0,1,1,0,1,5.5,7.6,6.6,Trudny,2,5 
+434,Dexter,Kielce,Unlock the door,50 ,Kryminalny,doświadczony,2 ,435,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,10,10.0,10.0,Trudny,1,5 
+435,Noc w muzeum,Stargard,Muzeum Archeologiczno-Historyczne Stargard,60 ,Historyczny,eksperci,3 ,436,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,0,0,1,1,0,8.5,9.0,9.5,Bardzo trudny,2,6 
+436,Joker,Bielsko-Biała,HURRY UP,60 ,Kryminalny,doświadczony,64 ,437,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,1,0,6.3,9.7,7.1,Trudny,2,5 
+437,Galeria Sztuki,Słupsk,TrapRooms,60 ,Przygodowy,początkujący,5 ,438,0,0,1,0,0,1,1,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,1,1,0,1,7.8,9.2,7.0,Średni,2,8 
+438,Kraina Czarów,Giżycko,Pokoje zagadek,60 ,Przygodowy,śr. zaawansowani,8 ,439,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,6.3,8.9,6.2,Trudny,2,5 
+439,Ekspedycja na Marsa,Warszawa,Team Exit - Pokoje zagadek -Escape Room 24,60 ,Przygodowy,śr. zaawansowani,25 ,440,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,1,0,5.3,7.6,5.3,Trudny,2,5 
+440,Piwnica dziadka,Gdańsk,Podziemna pułapka,60 ,Abstrakcyjny,początkujący,69 ,441,0,0,1,1,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,6.4,9.0,7.2,Średni,2,4 
+441,Statek Kosmiczny,Łódź,Tkalnia Zagadek KIDS,60 ,Dla dzieci,początkujący,2 ,442,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,9.1,9.9,10.0,Łatwy,2,7 
+442,Sherlock - Święty Grall,Szczecin,Escape Room Szczecin,60 ,Przygodowy,śr. zaawansowani,4 ,443,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,1,0,3.2,2.3,6.5,Trudny,2,5 
+443,Domek pełen emocji,Dębki,Locked Houses,60 ,Przygodowy,brak informacji,2 ,444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,9.1,10.0,8.2,Łatwy,1,4 
+444,Magiczny Sklep z Różdżkami,Wisła,Zamek Zagadek,65 ,Fantasy,śr. zaawansowani,13 ,445,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,6.6,7.7,7.1,Średni,2,8 
+445,Zaginione Kryształy 2.0,Kraków,Gamescape Kraków,60 ,Dla dzieci,na pierwszy raz,1 opinia,446,0,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,1,1,0,10,10.0,10.0,Łatwy,2,5 
+446,13 Posterunek,Zamość,Escape Room Zamość,60 ,Kryminalny,początkujący,1 opinia,447,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,0,10,10.0,10.0,Średni,2,6 
+447,Przygody Pirata Joe,Białystok,Unlocked - Escape Room,60 ,Przygodowy,początkujący,1 opinia,448,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,9.0,10.0,10.0,Łatwy,2,4 
+448,Outdoor Escape - Magiczny Portal,Kraków,Gamescape Kraków,150 ,Dla dzieci,początkujący,1 opinia,449,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,1,1,0,10,10.0,10.0,Łatwy,2,6 
+449,Mały Książę. Sen Pilota,Kluczbork,Escape Room Kluczbork,60 ,Fabularny,śr. zaawansowani,2 ,450,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,6.3,8.4,7.1,Łatwy,2,4 
+450,Gra Miejska - Koziołki,Poznań,Escapelandia,70 ,Fabularny,początkujący,1 opinia,451,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,8.0,10.0,10.0,Bardzo łatwy,2,6 
+451,Nawiedzona piwnica,Janów Lubelski,Zoom Natury,60 ,Thriller,śr. zaawansowani,1 opinia,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,8.0,6.0,6.0,Średni,2,6 
+452,Gabinet Kristera,Jedlina-Zdrój,Zespół Pałacowo-Hotelowy Jedlinka,60 ,Fabularny,doświadczony,1 opinia,453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,10,10.0,10.0,Trudny,2,4 
+453,Terrorysta. Bomba w Magazynie.,Skierniewice,Gabinety Tajemnic,60 ,Kryminalny,śr. zaawansowani,1 opinia,454,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,1,0,1,0,0,8.0,10.0,7.0,Średni,2,6 
+454,Histeria,Skierniewice,Gabinety Tajemnic,60 ,Thriller,śr. zaawansowani,9 ,456,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,0,1,5.6,10.0,8.2,Bardzo trudny,2,5 
+455,The Mistress,Gdańsk,Escaperooms.pl,60 ,Fabularny,śr. zaawansowani,2 ,455,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,1,1,0,1,1,1,1,0,0,1,0,0,7.2,8.8,9.6,Łatwy,2,4 
+456,Pokój żużlowy,Gorzów Wielkopolski,Open The Lock,60 ,Fabularny,doświadczony,1 opinia,457,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,7.0,4.0,7.0,Średni,2,4 
+457,Kamienie nieskończoności,Tarnów,Trzy Klucze,60 ,Fabularny,śr. zaawansowani,4 ,458,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,5.8,9.5,6.3,Średni,2,5 
+458,Saloon,Opole,Escape Room Chata Zagadek,60 ,Przygodowy,śr. zaawansowani,1 opinia,459,0,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,1,0,6.0,10.0,9.0,Średni,2,5 
+459,Alicja,Kraków,ExitRoom ™,60 ,Fabularny,śr. zaawansowani,1 opinia,460,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,1,0,7.0,9.0,8.0,Łatwy,2,5 
+460,Awaria zasilania w Parku Jurajskim,Kraków,Anikino Kraina Zabaw Dziecięcych,60 ,Dla dzieci,początkujący,Brak ,461,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,Brakopinii,,,,4,10 
+461,Zdobyć plany Gwiazdy Śmierci,Kraków,Anikino Kraina Zabaw Dziecięcych,60 ,Dla dzieci,początkujący,Brak ,461,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,Brakopinii,,,,4,10 
+462,Sala tortur Zygfryda de Löwe,Gierłoż,Mazurolandia,60 ,Historyczny,doświadczony,Brak ,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,Brakopinii,,,,2,7 
+463,Tajemnica Jumanji,Kraków,Anikino Kraina Zabaw Dziecięcych,60 ,Dla dzieci,na pierwszy raz,Brak ,461,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,Brakopinii,,,,4,10 
+464,"Dawno, dawno temu",Kraków,Anikino Kraina Zabaw Dziecięcych,60 ,Dla dzieci,początkujący,Brak ,461,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,Brakopinii,,,,6,10 
+465,Warsaw puzzle tour,Warszawa,Escape Service,60 ,Przygodowy,śr. zaawansowani,Brak ,461,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,1,1,0,1,1,1,1,1,0,1,0,0,Brakopinii,,,,8,30 
+466,Piramida,Dębki,Locked Houses,60 ,Przygodowy,śr. zaawansowani,Brak ,461,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,1,1,0,Brakopinii,,,,2,4 
+467,Zbrodnia,Mrągowo,Quady Mrągowo,60 ,Kryminalny,śr. zaawansowani,Brak ,461,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,0,0,Brakopinii,,,,2,6 
+468,Podróże przez sny,Mrągowo,Quady Mrągowo,60 ,Przygodowy,doświadczony,Brak ,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Brakopinii,,,,2,4 
+469,Laboratorium,Mrągowo,Quady Mrągowo,80 ,Dla dzieci,początkujący,Brak ,461,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,1,0,Brakopinii,,,,2,6 
+471,Star Warz. W poszukiwaniu Holokronu.,Skierniewice,Gabinety Tajemnic,60 ,Fantasy,początkujący,Brak ,461,0,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,0,0,Brakopinii,,,,1,5 
+472,Łóżko szpitalne,Katowice,Mystery Machinery,45 ,Fabularny,doświadczony,1 opinia,434,0,1,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,1,0,1,9.0,10.0,9.0,Trudny,2,4 
+473,Squad Game,Kraków,Gamescape Kraków,30 ,Przygodowy,doświadczony,Brak ,461,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,1,0,0,Brakopinii,,,,2,4 
+474,Sekrety rodziny Montgomery,Tarnów,Trzy Klucze,60 ,Thriller,śr. zaawansowani,Brak ,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,Brakopinii,,,,2,5 
+475,Laboratorium szalonego naukowca,Tarnów,Trzy Klucze,60 ,Fabularny,śr. zaawansowani,Brak ,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,Brakopinii,,,,2,3 
