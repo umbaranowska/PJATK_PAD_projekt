@@ -25,4 +25,4 @@ Ta część zawiera kilka ważnych kroków, które dla lepszej organizacji pracy
 - skupia się na kolumnie z ocenami użytkowników - kolumna została podzielona na średnią ocenę, ocenę za klimat, ocenę za obsługę oraz poziom trudności wg. użytkowników
 ### 04
 - w tym kroku z kolumn 'liczba_graczy', 'czas_gry', 'liczba_ocen', 'miejsce_w_polsce' został usunięty niepotrzebny tekst (np. '60' zamiast '60 minut')
-- dodatkowo kolumna 'liczba_graczy' została podzielona na kilka kolumn z informacją czy tylu graczy może grać w danym pokoju (np. kolumny 'gracze_2', 'gracze_3', 'gracze_4' każda z wartością 1 zamiast 'liczba_graczy' z wartością '2-4 osób')
+- dodatkowo kolumna 'liczba_graczy' została podzielona na kolumny 'min_liczba_graczy' i 'max_liczba_graczy'
