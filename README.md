@@ -26,3 +26,6 @@ Ta część zawiera kilka ważnych kroków, które dla lepszej organizacji pracy
 ### 04
 - w tym kroku z kolumn 'liczba_graczy', 'czas_gry', 'liczba_ocen', 'miejsce_w_polsce' został usunięty niepotrzebny tekst (np. '60' zamiast '60 minut')
 - dodatkowo kolumna 'liczba_graczy' została podzielona na kolumny 'min_liczba_graczy' i 'max_liczba_graczy'
+
+## Eksploracja danych - folder data_exploration
+W tym etapie skupiono się na sprawdzeniu czy dane zostały dobrze zebranie i wyczyszczone, sprawdzeniu rozkładów zamiennych, braków danych, decyzji które obserwacje odrzucić (np. ze względu na brak ocen). Sprawdzono też korelacje między zmiennymi, żeby ostatecznie wybrać które zależności będą przedstawione na dashboardzie, które zmienne można pogrupować albo pominąć. 
