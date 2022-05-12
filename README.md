@@ -27,5 +27,8 @@ Ta część zawiera kilka ważnych kroków, które dla lepszej organizacji pracy
 - dodatkowo kolumna 'liczba_graczy' została podzielona na kolumny 'min_liczba_graczy' i 'max_liczba_graczy'
 
 ## Eksploracja danych - folder data_exploration
-W tym etapie skupiono się na sprawdzeniu czy dane zostały dobrze zebranie i wyczyszczone, sprawdzeniu rozkładów zamiennych, braków danych, decyzji które obserwacje odrzucić (np. ze względu na brak ocen). Sprawdzono też korelacje między zmiennymi, żeby ostatecznie wybrać które zależności będą przedstawione na dashboardzie, które zmienne można pogrupować albo pominąć. 
+W tym kroku skupiono się na sprawdzeniu czy dane zostały dobrze zebranie i wyczyszczone, sprawdzeniu rozkładów zamiennych, braków danych, decyzji które obserwacje odrzucić (np. ze względu na brak ocen). Sprawdzono też korelacje między zmiennymi, żeby ostatecznie wybrać które zależności będą przedstawione na dashboardzie, które zmienne można pogrupować albo pominąć.
+
+## Dashboard - wersja 0 - folder dashboard/dashboard_draft
+W tym etapie skupiono się na wyborze odpowiednich wizualizacji i funckjonalności do jak najlepszego opisania zbioru danych i stworzono bardzo uproszczoną wersję dashboardu z elementami opisującymi najważniejsze zmienne i ich zależności.  
 Podczas tego kroku znaleziono jeden pominięty wcześniej wiersz dla którego brakuje danych o poziomie trudności. Ponieważ jest to pojedynczy przypadek spośród ponad 450 obserwacji, został on usunięty z dalszej analizy.
