@@ -4,7 +4,7 @@ projekt zaliczeniowy z Programowania dla Analityki Danych (PJATK, 2022)
 ## Cel projektu
 Celem projektu jest sprawdzenie czy na podstawie informacji o escape roomach w Polsce znalezionych na stronie lockme.pl można przewidywać średnią ocenę escape roomu wystawioną przez użytkowników portalu.  
 Na stronie lockme.pl można znaleźć informacje o escape roomach w Polsce i na świecie, na potrzeby tego projektu wybrano tylko ranking dla Polski. Oprócz takich informacji jak tematyka pokoju czy liczba graczy, na stronie znajdziemy też informacje m.in. o tym czy pokój jest przyjazny osobom w ciązy lub niepełnosprawnym, w jakich językach dostępna jest gra oraz jakie środki bezpieczeństwa są dostępne w pokoju (np. przycisk bezpieczeństwa). Te dane zostaną wykorzystane w projekcie.  
-Strona daje także możliwość zarezerwowania pokoju poprzez widget rezerwacyjny. W większości przypadków cena pojawia się dopiero po kliknięciu w wybraną datę, godzinę i wybraniu liczby graczy. W projekcie pominięto dane dotyczące cen z dwóch powodów: (1) zdobycie danych z widgetu rezerwacyjnego przy użyciu prostego web scrapingu jest zbyt skomplikowane oraz (2) cena zależy od liczby graczy, miasta oraz w dużej mierze od dnia tygodnia oraz pory dnia.
+Strona daje także możliwość zarezerwowania pokoju poprzez widget rezerwacyjny. W większości przypadków cena pojawia się dopiero po kliknięciu w wybraną datę, godzinę i wybraniu liczby graczy. W projekcie pominięto dane dotyczące cen z dwóch powodów: (1) zdobycie danych z widgetu rezerwacyjnego przy użyciu prostego web scrapingu jest zbyt skomplikowane oraz (2) cena zależy od liczby graczy, miasta - te zmienne są już uwzględnione w zbiorze, oraz w dużej mierze od dnia tygodnia oraz pory dnia - ta cykliczność jest bardzo charakterystyczna dla całego rynku ER.
 
 ## Pobieranie danych - web scraping ze strony lockme.pl - folder data_scraping
 - **data_scraping_links.py** - pierwszy krok pobierania danych - na stronie lockme.pl znajduje bezpośrednie url do podstron każdego ER i zapisuje do pliku .txt
@@ -28,3 +28,4 @@ Ta część zawiera kilka ważnych kroków, które dla lepszej organizacji pracy
 
 ## Eksploracja danych - folder data_exploration
 W tym etapie skupiono się na sprawdzeniu czy dane zostały dobrze zebranie i wyczyszczone, sprawdzeniu rozkładów zamiennych, braków danych, decyzji które obserwacje odrzucić (np. ze względu na brak ocen). Sprawdzono też korelacje między zmiennymi, żeby ostatecznie wybrać które zależności będą przedstawione na dashboardzie, które zmienne można pogrupować albo pominąć. 
+Podczas tego kroku znaleziono jeden pominięty wcześniej wiersz dla którego brakuje danych o poziomie trudności. Ponieważ jest to pojedynczy przypadek spośród ponad 450 obserwacji, został on usunięty z dalszej analizy.
