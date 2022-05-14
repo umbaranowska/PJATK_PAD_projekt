@@ -1,5 +1,6 @@
 library(shiny)
 library(tidyverse)
+library(ggcorrplot)
 library(plotly)
 library(glue)
 
@@ -116,6 +117,25 @@ ui <- fluidPage(
                column(width = 4, plotlyOutput('out06_3'))
         )
       )
+    ),
+    tabPanel(
+      title = 'ważne informacje',
+      fluidRow(tableOutput('test')) # TODO
+    ),
+    tabPanel(
+      title = 'średnia ocena',
+      fluidRow(
+        column(width = 6, plotlyOutput('out07', height = 750)),
+        column(width = 6, textOutput('page5_text'))
+      ),
+      fluidRow(
+        plotlyOutput('out07_1', height = 600),
+        plotlyOutput('out07_2', height = 600)
+      )
+    ),
+    tabPanel(
+      title = 'korelacje',
+      fluidRow() #TODO
     )
   )
 )
@@ -149,6 +169,17 @@ server <- function(input, output) {
     glue(
       'w tej sekcji będzie prosty wykres z liczbą ER per poziom trudności, opis 
       + możliwość porównania poziomu trudności w max. 3 kategoriach'
+    )
+  )
+  output$page4_text = renderText(
+    glue(
+      '...'
+    )
+  )
+  output$page5_text = renderText(
+    glue(
+      'w tej sekcji będzie pokazany rozkład ocen ogólnie, dla 6 największych miast
+      i dla 6 najpopularniejszych kategorii'
     )
   )
   
@@ -332,7 +363,8 @@ server <- function(input, output) {
         theme_minimal() +
         xlab('liczba escape roomów') +
         ggtitle(reactive_dataout6_1()$kategoria[1]) +
-        ylim(0,reactive_dataout6_maxx()*1.15)
+        ylim(0,reactive_dataout6_maxx()*1.15) + 
+        theme(axis.text.x = element_text(angle = 30, vjust = 0.5, hjust=1))
     )
   )
   output$out06_2 = renderPlotly(
@@ -344,7 +376,8 @@ server <- function(input, output) {
         theme_minimal() +
         xlab('liczba escape roomów') +
         ggtitle(reactive_dataout6_2()$kategoria[1]) +
-      ylim(0,reactive_dataout6_maxx()*1.15)
+      ylim(0,reactive_dataout6_maxx()*1.15) + 
+        theme(axis.text.x = element_text(angle = 30, vjust = 0.5, hjust=1))
     )
     )
   
@@ -357,9 +390,74 @@ server <- function(input, output) {
         theme_minimal() +
         xlab('liczba escape roomów') +
         ggtitle(reactive_dataout6_3()$kategoria[1]) +
-        ylim(0,reactive_dataout6_maxx()*1.15)
+        ylim(0,reactive_dataout6_maxx()*1.15) + 
+        theme(axis.text.x = element_text(angle = 30, vjust = 0.5, hjust=1))
     )
     )
+  
+  output$out07 = renderPlotly(
+    ggplotly(
+      data %>%
+        select(srednia_ocena, ocena_obsluga, ocena_klimat) %>%
+        pivot_longer(everything()) %>%
+        mutate(name = factor(name,
+                             levels = c('srednia_ocena', 'ocena_obsluga', 'ocena_klimat'))) %>%
+        ggplot(., aes(x = name, y = value, color = name)) +
+        geom_boxplot() +
+        ggtitle('Rozkład średnich ocen escape roomów') +
+        theme(
+          legend.position = 'none',
+          axis.title = element_blank()
+        ) +
+        scale_color_manual(values = c('srednia_ocena' = 'red'))
+    )
+  )
+  
+  output$out07_1 = renderPlotly(
+    ggplotly(
+      data %>%
+        select(miasto, srednia_ocena, ocena_obsluga, ocena_klimat) %>%
+        filter(miasto %in% c('Warszawa', 'Poznań', 'Wrocław',
+                             'Kraków', 'Bydgoszcz', 'Gdańsk')) %>%
+        pivot_longer(c(srednia_ocena, ocena_obsluga, ocena_klimat)) %>%
+        mutate(name = factor(name,
+                             levels = c('srednia_ocena', 'ocena_obsluga', 'ocena_klimat'))) %>%
+        ggplot(., aes(x = name, y = value, color = name)) +
+        geom_boxplot() +
+        ggtitle('Rozkład średnich ocen escape roomów - 6 najpopularniejszych miast') +
+        theme(
+          legend.position = 'none',
+          axis.title = element_blank()
+        ) +
+        scale_color_manual(values = c('srednia_ocena' = 'red')) +
+        facet_wrap(~miasto, ncol = 3)
+    )
+  )
+  
+  output$out07_2 = renderPlotly(
+    ggplotly(
+      data %>%
+        select(kategoria, srednia_ocena, ocena_obsluga, ocena_klimat) %>%
+        filter(kategoria %in% c('Przygodowy', 'Thriller', 'Fabularny',
+                                'Kryminalny', 'Fantasy', 'Horror')) %>%
+        pivot_longer(c(srednia_ocena, ocena_obsluga, ocena_klimat)) %>%
+        mutate(name = factor(name,
+                             levels = c('srednia_ocena', 'ocena_obsluga', 'ocena_klimat'))) %>%
+        ggplot(., aes(x = name, y = value, color = name)) +
+        geom_boxplot() +
+        ggtitle('Rozkład średnich ocen escape roomów - 6 najpopularniejszych kategorii') +
+        theme(
+          legend.position = 'none',
+          axis.title = element_blank()
+        ) +
+        scale_color_manual(values = c('srednia_ocena' = 'red')) +
+        facet_wrap(~kategoria, ncol = 3)
+    )
+  )
+  
+  output$test = renderTable({
+    # TODO
+    })
 }
 
 # Run the application 

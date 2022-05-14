@@ -1,3 +1,5 @@
 .idea/
 data_scraping/__pycache__/
 .Rproj.user
+dashboard/.RData
+dashboard/.Rhistory
