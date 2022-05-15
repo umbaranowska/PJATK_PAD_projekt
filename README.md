@@ -31,4 +31,4 @@ W tym kroku skupiono się na sprawdzeniu czy dane zostały dobrze zebranie i wyc
 
 ## Dashboard - wersja 0 - folder dashboard/dashboard_draft
 W tym etapie skupiono się na wyborze odpowiednich wizualizacji i funckjonalności do jak najlepszego opisania zbioru danych i stworzono bardzo uproszczoną wersję dashboardu z elementami opisującymi najważniejsze zmienne i ich zależności.  
-Podczas tego kroku znaleziono jeden pominięty wcześniej wiersz dla którego brakuje danych o poziomie trudności. Ponieważ jest to pojedynczy przypadek spośród ponad 450 obserwacji, został on usunięty z dalszej analizy.
+Podczas tego kroku znaleziono jeden pominięty wcześniej wiersz dla którego brakuje danych o poziomie trudności i jeden ER online. Ponieważ są to pojedyncze przypadki spośród ponad 450 obserwacji, zostały one usunięte z dalszej analizy.
