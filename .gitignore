@@ -3,3 +3,8 @@ data_scraping/__pycache__/
 .Rproj.user
 dashboard/.RData
 dashboard/.Rhistory
+dashboard_draft/.Rhistory
+dashboard_draft/dashboard_draft.Rproj
+dashboard/dashboard_draft/app.R
+dashboard/dashboard.Rproj
+dashboard/dashboard.Rproj

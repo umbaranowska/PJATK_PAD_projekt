@@ -36,14 +36,17 @@ poziom_trudnosci_pad = function(plot_data){
   return(plot_data)
 }
 
-data = readr::read_csv("~/PJATK_PAD_projekt/data_exploration/data_clean.csv")%>%
+data = readr::read_csv("data_clean.csv") %>%
   filter(poziom_trudnosci != 'brak informacji') %>%
+  filter(języki_polski != 0) %>%
   mutate(poziom_trudnosci = factor(poziom_trudnosci, 
                                    levels = c('na pierwszy raz',
                                               'początkujący',
                                               'śr. zaawansowani',
                                               'doświadczony',
                                               'eksperci')))
+
+wazne_informacje_procent = readRDS('wazne_informacje_procent.RDS')
 
 ##### UI #######################################################################
 ################################################################################
@@ -62,14 +65,13 @@ ui <- fluidPage(
                     selected = 'cała Polska')
       ),
       fluidRow(
+        column(width = 6, plotlyOutput('out01_default')),
         conditionalPanel(
           condition = "input.page1_miasto == 'cała Polska'",
-          column(width = 6, plotlyOutput('out01_default')),
           column(width = 6, tableOutput('out02_default'))
         ),
         conditionalPanel(
           condition = "input.page1_miasto != 'cała Polska'",
-          column(width = 6, plotlyOutput('out01')),
           column(width = 6, tableOutput('out02'))
         )
       )
@@ -120,7 +122,8 @@ ui <- fluidPage(
     ),
     tabPanel(
       title = 'ważne informacje',
-      fluidRow(tableOutput('test')) # TODO
+      fluidRow(textOutput('page4_text')),
+      fluidRow(tableOutput('wazne_informacje'))
     ),
     tabPanel(
       title = 'średnia ocena',
@@ -135,7 +138,12 @@ ui <- fluidPage(
     ),
     tabPanel(
       title = 'korelacje',
-      fluidRow() #TODO
+      fluidRow(
+        plotlyOutput('corr_podstawowe', height = 800)
+      ),
+      fluidRow(
+        plotlyOutput('corr_bezpieczenstwo', height = 800)
+      )
     )
   )
 )
@@ -153,8 +161,8 @@ server <- function(input, output) {
   )
   output$page1_text = renderText(
     glue(
-      'w tej sekcji będzie mapa na której wielkość bąbla oddaje liczbę ER;
-      docelowo po najechaniu na mapę będzie się pokazywać ile dokładnie;
+      'w tej sekcji docelowo zamiast słupków będzie mapa na której wielkość bąbla oddaje liczbę ER;
+       po najechaniu na mapę będzie się pokazywać ile dokładnie;
       można wybrać miasto - wtedy się podświetli kolorem a tabela pokaże tylko top ER w tym mieście,
       pod spodem krótki opis'
     )
@@ -162,18 +170,18 @@ server <- function(input, output) {
   output$page2_text = renderText(
     glue(
       'w tej sekcji będzie prosty wykres z liczbą ER per kategoria, opis 
-      + możliwość porównania najpopularniejszych kategorii w max. 3 miastach'
+      + możliwość porównania najpopularniejszych kategorii w miastach'
     )
   )
   output$page3_text = renderText(
     glue(
       'w tej sekcji będzie prosty wykres z liczbą ER per poziom trudności, opis 
-      + możliwość porównania poziomu trudności w max. 3 kategoriach'
+      + możliwość porównania poziomu trudności w kategoriach'
     )
   )
   output$page4_text = renderText(
     glue(
-      '...'
+      'tabelka z % er w których są dane oznaczenia'
     )
   )
   output$page5_text = renderText(
@@ -199,22 +207,22 @@ server <- function(input, output) {
         ggtitle('Miasta z największą liczbą escape roomów')
     )
   })
-  output$out01 = renderPlotly({
-    ggplotly(
-      data %>%
-        group_by(miasto) %>%
-        filter(miasto == input$page1_miasto) %>%
-        summarise(n = n()) %>%
-        arrange(desc(n)) %>%
-        head(15) %>%
-        ggplot(., aes(x = n, y = reorder(miasto, n))) +
-        geom_bar(stat = 'identity') +
-        theme_minimal() +
-        xlab('liczba escape roomów') +
-        ylab('miasto') +
-        ggtitle('Miasta z największą liczbą escape roomów')
-    )
-  })
+  # output$out01 = renderPlotly({
+  #   ggplotly(
+  #     data %>%
+  #       group_by(miasto) %>%
+  #       filter(miasto == input$page1_miasto) %>%
+  #       summarise(n = n()) %>%
+  #       arrange(desc(n)) %>%
+  #       head(15) %>%
+  #       ggplot(., aes(x = n, y = reorder(miasto, n))) +
+  #       geom_bar(stat = 'identity') +
+  #       theme_minimal() +
+  #       xlab('liczba escape roomów') +
+  #       ylab('miasto') +
+  #       ggtitle('Miasta z największą liczbą escape roomów')
+  #   )
+  # })
   
   # tabela top ER
   output$out02_default = renderTable({
@@ -361,7 +369,6 @@ server <- function(input, output) {
         ggplot(., aes(x = poziom_trudnosci, y = n)) +
         geom_bar(stat = 'identity') +
         theme_minimal() +
-        xlab('liczba escape roomów') +
         ggtitle(reactive_dataout6_1()$kategoria[1]) +
         ylim(0,reactive_dataout6_maxx()*1.15) + 
         theme(axis.text.x = element_text(angle = 30, vjust = 0.5, hjust=1))
@@ -374,7 +381,6 @@ server <- function(input, output) {
         ggplot(., aes(x = poziom_trudnosci, y = n)) +
         geom_bar(stat = 'identity') +
         theme_minimal() +
-        xlab('liczba escape roomów') +
         ggtitle(reactive_dataout6_2()$kategoria[1]) +
       ylim(0,reactive_dataout6_maxx()*1.15) + 
         theme(axis.text.x = element_text(angle = 30, vjust = 0.5, hjust=1))
@@ -388,7 +394,6 @@ server <- function(input, output) {
         ggplot(., aes(x = poziom_trudnosci, y = n)) +
         geom_bar(stat = 'identity') +
         theme_minimal() +
-        xlab('liczba escape roomów') +
         ggtitle(reactive_dataout6_3()$kategoria[1]) +
         ylim(0,reactive_dataout6_maxx()*1.15) + 
         theme(axis.text.x = element_text(angle = 30, vjust = 0.5, hjust=1))
@@ -455,10 +460,55 @@ server <- function(input, output) {
     )
   )
   
-  output$test = renderTable({
-    # TODO
+  output$wazne_informacje = renderTable({
+    wazne_informacje_procent %>%
+      arrange(desc(wartosc)) %>%
+      mutate(wartosc = paste0(round(wartosc, 2), '%')) %>%
+      select(subgroup, wartosc, zmienna) %>%
+      rename(procent_er = wartosc) 
     })
+  
+  output$corr_bezpieczenstwo = renderPlotly({
+    data %>% 
+      select(starts_with('bezpieczeństwo_')) %>%
+      rename_with(~str_remove(., 'bezpieczeństwo_')) %>%
+      DescTools::PairApply(., DescTools::CramerV) %>%
+      ggcorrplot::ggcorrplot(type = 'upper', lab = TRUE, show.legend = FALSE) %>%
+      plotly::ggplotly()
+  })
+  
+  output$corr_podstawowe = renderPlotly({
+    data %>% 
+      select(starts_with('podstawowe_')) %>%
+      rename_with(~str_remove(., 'podstawowe_')) %>%
+      DescTools::PairApply(., DescTools::CramerV) %>%
+      ggcorrplot::ggcorrplot(type = 'upper', lab = TRUE, show.legend = FALSE) %>%
+      plotly::ggplotly()
+  })
 }
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
+
+
+
+
+
+# ##### dodatkowo - kod do stworzenia df z informacją jaki % er zawiera ważne informacje
+# empty_df = data.frame(matrix(ncol = 3, nrow = 0))
+# colnames(empty_df) = c('zmienna', 'wartosc', 'subgroup')
+# for(i in c('podstawowe', 'bezpieczeństwo', 'języki')){
+#   df = data %>%
+#     select(contains(i)) %>%
+#     summarise_all(~sum(.x)/nrow(data)*100)
+#   colnames(df) = str_remove_all(colnames(df), paste0(i, '_'))
+#   df = df %>% t() %>% data.frame()
+#   colnames(df) = c('wartosc')
+#   df$zmienna = rownames(df)
+#   df = df %>% select(zmienna, wartosc) %>%
+#     mutate(subgroup = i)
+#   empty_df = empty_df %>% rbind(df)
+# }
+# rownames(empty_df) = seq(nrow(empty_df))
+# saveRDS(empty_df, 'wazne_informacje_procent.RDS')
