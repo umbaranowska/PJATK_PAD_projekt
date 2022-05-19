@@ -29,6 +29,6 @@ Ta część zawiera kilka ważnych kroków, które dla lepszej organizacji pracy
 ## Eksploracja danych - folder data_exploration
 W tym kroku skupiono się na sprawdzeniu czy dane zostały dobrze zebranie i wyczyszczone, sprawdzeniu rozkładów zamiennych, braków danych, decyzji które obserwacje odrzucić (np. ze względu na brak ocen). Sprawdzono też korelacje między zmiennymi, żeby ostatecznie wybrać które zależności będą przedstawione na dashboardzie, które zmienne można pogrupować albo pominąć.
 
-## Dashboard - wersja 0 - folder dashboard/dashboard_draft
+## Dashboard - wersja 0 - folder dashboard_draft
 W tym etapie skupiono się na wyborze odpowiednich wizualizacji i funckjonalności do jak najlepszego opisania zbioru danych i stworzono bardzo uproszczoną wersję dashboardu z elementami opisującymi najważniejsze zmienne i ich zależności.  
 Podczas tego kroku znaleziono jeden pominięty wcześniej wiersz dla którego brakuje danych o poziomie trudności i jeden ER online. Ponieważ są to pojedyncze przypadki spośród ponad 450 obserwacji, zostały one usunięte z dalszej analizy.
