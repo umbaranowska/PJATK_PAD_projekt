@@ -6,25 +6,12 @@ library(glue)
 
 poziom_trudnosci_pad = function(plot_data){
   kat = unique(plot_data$kategoria)[1]
-  if(!'na pierwszy raz' %in% plot_data$poziom_trudnosci){
-    plot_data = plot_data %>%
-      add_row(kategoria = kat, poziom_trudnosci = 'na pierwszy raz', n = 0)
-  }
-  if(!'początkujący' %in% plot_data$poziom_trudnosci){
-    plot_data = plot_data %>%
-      add_row(kategoria = kat, poziom_trudnosci = 'początkujący', n = 0)
-  }
-  if(!'śr. zaawansowani' %in% plot_data$poziom_trudnosci){
-    plot_data = plot_data %>%
-      add_row(kategoria = kat, poziom_trudnosci = 'śr. zaawansowani', n = 0)
-  }
-  if(!'doświadczony' %in% plot_data$poziom_trudnosci){
-    plot_data = plot_data %>%
-      add_row(kategoria = kat, poziom_trudnosci = 'doświadczony', n = 0)
-  }
-  if(!'eksperci' %in% plot_data$poziom_trudnosci){
-    plot_data = plot_data %>%
-      add_row(kategoria = kat, poziom_trudnosci = 'eksperci', n = 0)
+  for(poziom in c('na pierwszy raz', 'początkujący', 'śr.zaawansowani',
+                  'doświadczony', 'eksperci')){
+    if(!poziom %in% plot_data$poziom_trudnosci){
+      plot_data = plot_data %>%
+        add_row(kategoria = kat, poziom_trudnosci = poziom, n = 0)
+    }
   }
   plot_data = plot_data %>%
     mutate(poziom_trudnosci = factor(poziom_trudnosci, 
@@ -36,7 +23,7 @@ poziom_trudnosci_pad = function(plot_data){
   return(plot_data)
 }
 
-data = readr::read_csv("data_clean.csv") %>%
+data = readr::read_csv("~/PJATK_PAD_projekt/data_exploration/data_clean.csv") %>%
   filter(poziom_trudnosci != 'brak informacji') %>%
   filter(języki_polski != 0) %>%
   mutate(poziom_trudnosci = factor(poziom_trudnosci, 
