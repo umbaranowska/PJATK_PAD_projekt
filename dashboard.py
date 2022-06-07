@@ -5,13 +5,14 @@ import plotly.graph_objects as go
 st.set_page_config(layout="wide")
 
 df = pd.read_csv('data_final.csv')
+top12_miast = list(df['miasto'].value_counts().reset_index().sort_values(by='miasto', ascending=False)['index'][:13])
 
 with st.sidebar:
     page = option_menu(
         'Projekt',
         ['Informacje ogólne', 'Kategorie ER', 'Poziom trudności ER'],
         menu_icon = '123',
-        icons = ['arrow_right', 'arrow_right', 'arrow_right']
+        icons = ['arrow_right' for i in range(3)]
     )
 
 if page == 'Informacje ogólne':
@@ -25,7 +26,7 @@ if page == 'Informacje ogólne':
     st.header('Miasta, w których znajdziemy najwięcej ER')
 
     st.header('Najlepsze ER w Polsce')
-    st.write('Wiele ER w Polsce może się pochwalić idealną oceną średnią odwiedzających. W poniższej tabeli znajduje się 15 z nich.')
+    st.write('Wiele ER w Polsce może się pochwalić idealną oceną średnią odwiedzających. W poniższej tabeli znajduje się 15 z nich. Aktualny ranking można znaleźc na stronie https://lock.me/pl/polska/ranking-escape-room, dlatego w tym projekcie skupmy się na tym, czego nie znajdziemy na lockme.pl :)')
     st.dataframe(df.sort_values(by = ['srednia_ocena'], ascending=False)\
                 [['nazwa', 'firma', 'miasto', 'kategoria', 'poziom_trudnosci']]\
                 .head(15)\
@@ -37,7 +38,16 @@ if page == 'Informacje ogólne':
                                    'poziom_trudnosci' : 'Poziom trudności'}))
 
 if page == 'Kategorie ER':
-    df_kategorie = df['kategoria'].value_counts().reset_index()
+
+    st.header('Kategorie ER')
+    df_kategorie = df['kategoria'].value_counts().reset_index().sort_values(by='kategoria')
+
+    st.write(f'''Jak widać na polskim rynku escape roomów zdecydowanie przeważają pokoje z kategorii {df_kategorie["index"][0]},
+    jest ich więcej niż kolejnych 3 kategorii ({df_kategorie["index"][1]}, {df_kategorie["index"][2]}, {df_kategorie["index"][3]}) łącznie!''')
+
+    fig01 = go.Figure()
+    fig01 = fig01.add_trace(go.Bar(y = df_kategorie['index'], x = df_kategorie['kategoria'], orientation = 'h'))
+    st.plotly_chart(fig01)
 
 
 if page == 'Poziom trudności ER':
