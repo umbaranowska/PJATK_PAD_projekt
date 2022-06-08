@@ -19,14 +19,21 @@ if page == 'Informacje ogólne':
 
     st.title('Analiza rynku escape roomów w Polsce i przewidywanie średniej oceny graczy na podstawie danych z portalu lockme.pl')
 
-    st.write('Celem projektu jest sprawdzenie czy na podstawie informacji o escape roomach w Polsce znalezionych na stronie lockme.pl można przewidywać średnią ocenę escape roomu wystawioną przez użytkowników portalu.')
-    st.write('Na stronie lockme.pl można znaleźć informacje o escape roomach w Polsce i na świecie, na potrzeby tego projektu wybrano tylko ranking dla Polski. Oprócz takich informacji jak tematyka pokoju czy liczba graczy, na stronie znajdziemy też informacje m.in. o tym czy pokój jest przyjazny osobom w ciązy lub niepełnosprawnym, w jakich językach dostępna jest gra oraz jakie środki bezpieczeństwa są dostępne w pokoju (np. przycisk bezpieczeństwa). Te dane zostały wykorzystane w projekcie.')
-    st.write('Repozytorium z kodem i opisem całego procesu tworzenia tego dashboardu jest dostępne pod adresem https://github.com/umbaranowska/PJATK_PAD_projekt')
+    st.write('''Celem projektu jest sprawdzenie czy na podstawie informacji o escape roomach w Polsce
+     znalezionych na stronie lockme.pl można przewidywać średnią ocenę escape roomu wystawioną przez użytkowników portalu.''')
+    st.write('''Na stronie lockme.pl można znaleźć informacje o escape roomach w Polsce i na świecie, 
+    na potrzeby tego projektu wybrano tylko ranking dla Polski. 
+    Oprócz takich informacji jak tematyka pokoju czy liczba graczy, 
+    na stronie znajdziemy też informacje m.in. o tym czy pokój jest przyjazny osobom w ciązy lub niepełnosprawnym, 
+    w jakich językach dostępna jest gra oraz jakie środki bezpieczeństwa są dostępne w pokoju 
+    (np. przycisk bezpieczeństwa). Te dane zostały wykorzystane w projekcie.''')
+    st.write('''Repozytorium z kodem i opisem całego procesu tworzenia tego dashboardu jest dostępne pod adresem
+     https://github.com/umbaranowska/PJATK_PAD_projekt''')
 
     st.header('Miasta, w których znajdziemy najwięcej ER')
 
     st.header('Najlepsze ER w Polsce')
-    st.write('Wiele ER w Polsce może się pochwalić idealną oceną średnią odwiedzających. W poniższej tabeli znajduje się 15 z nich. Aktualny ranking można znaleźc na stronie https://lock.me/pl/polska/ranking-escape-room, dlatego w tym projekcie skupmy się na tym, czego nie znajdziemy na lockme.pl :)')
+    st.write('Wiele ER w Polsce może się pochwalić idealną oceną średnią odwiedzających. W poniższej tabeli znajduje się 15 z nich.')
     st.dataframe(df.sort_values(by = ['srednia_ocena'], ascending=False)\
                 [['nazwa', 'firma', 'miasto', 'kategoria', 'poziom_trudnosci']]\
                 .head(15)\
@@ -36,6 +43,8 @@ if page == 'Informacje ogólne':
                                    'miasto' : 'Miasto',
                                    'kategoria' : 'Kategoria',
                                    'poziom_trudnosci' : 'Poziom trudności'}))
+    st.write('''Aktualny ranking można znaleźc na stronie https://lock.me/pl/polska/ranking-escape-room, 
+             dlatego w tym projekcie skupmy się na tym, czego nie znajdziemy na lockme.pl :)''')
 
 if page == 'Kategorie ER':
 
@@ -48,7 +57,10 @@ if page == 'Kategorie ER':
     fig01 = go.Figure()
     fig01 = fig01.add_trace(go.Bar(y = df_kategorie['index'], x = df_kategorie['kategoria'], orientation = 'h'))
     st.plotly_chart(fig01)
+    ### TODO hover % - do wszyskich wykresów
 
+    st.write('''Co ciekawe nie we wszystkich miastach przeważają pokoje przygodowe''')
+    ### TODO tekst i wykresy dla top12_miast
 
 if page == 'Poziom trudności ER':
     pass
