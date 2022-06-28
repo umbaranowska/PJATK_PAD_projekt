@@ -1,4 +1,7 @@
+from unittest.mock import inplace
+
 import pandas as pd
+import numpy as np
 
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -7,10 +10,28 @@ import plotly.express as px
 import streamlit as st
 from streamlit_option_menu import option_menu
 st.set_page_config(layout="wide")
+# ukrywanie indexów przy wyświetlaniu tabel ALE nie dataframe pożyczone z:
+# https://docs.streamlit.io/knowledge-base/using-streamlit/hide-row-indices-displaying-dataframe
+hide_dataframe_row_index = """
+            <style>
+            .row_heading.level0 {display:none}
+            .blank {display:none}
+            </style>
+            """
+st.markdown(hide_dataframe_row_index, unsafe_allow_html=True)
 
 df = pd.read_csv('data_final.csv').rename(columns = {'Unnamed: 0' : 'ind'})
 top12_miast = list(df['miasto'].value_counts().reset_index().sort_values(by='miasto', ascending=False)['index'][:12])
 top3_kategorie = ['Przygodowy', 'Thriller', 'Fabularny']
+
+df_wazne_informacje = pd.read_csv('dashboard_draft/wazne_informacje.csv', index_col='Unnamed: 0')
+df_wazne_informacje = df_wazne_informacje[df_wazne_informacje['subgroup'] != 'języki']
+df_wazne_informacje['zmienna'] = df_wazne_informacje['zmienna'].str.replace('_', ' ').str.capitalize()
+df_wazne_informacje.sort_values('wartosc', ascending=False)
+df_wazne_informacje['wartosc_do_pokazania'] = np.round(df_wazne_informacje['wartosc'], 2).astype('str') + '%'
+df_wazne_informacje.rename(columns = {'zmienna' : 'Oznaczenie',
+                                      'wartosc_do_pokazania' : 'Procent ER z oznaczeniem',
+                                      'subgroup' : 'Typ oznaczenia'}, inplace = True)
 
 # df do wykresów
 df_kategorie = df['kategoria'].value_counts().reset_index().sort_values(by='kategoria')
@@ -62,6 +83,8 @@ if page == 'Informacje ogólne':
      https://github.com/umbaranowska/PJATK_PAD_projekt''')
 
     st.header('Miasta, w których znajdziemy najwięcej ER')
+
+    ### TODO mapa
 
     st.header('Najlepsze ER w Polsce')
     st.write('Wiele ER w Polsce może się pochwalić idealną oceną średnią odwiedzających. W poniższej tabeli znajduje się 15 z nich.')
@@ -122,7 +145,7 @@ if page == 'Poziom trudności ER':
     fig03 = go.Figure()
     fig03.add_trace(go.Bar(x=df_trudnosci['index'], y=df_trudnosci['poziom_trudnosci'], orientation='v'))
     fig03.update_layout(xaxis={'categoryorder':'array',
-                               'categoryarray':['na pierwszy raz', 'początkujący', 'śr. zaawansowani' 'doświadczony', 'eksperci']})
+                               'categoryarray':['na pierwszy raz', 'początkujący', 'śr. zaawansowani', 'doświadczony', 'eksperci']})
     st.plotly_chart(fig03, use_container_width=True)
 
     st.write('Podobnie prezentuje się rozkład poziomu trudności w każdej kategorii, poniżej wykresy dla 3 najpopularniejszych.')
@@ -181,5 +204,37 @@ if page == 'Dodatkowe informacje o ER':
     st.write('''Poczas eksploracji danych odrzucono z tej analizy oznaczenia, które pojawiały się w mniej niż 10% ER
      - zwykle były to oznaczenia, które pojawiły się tylko w pojedynczych ER 
      (np. język słowacki dostępny jedynie w pojedynczych ER przy granicy, pokoje eliminacyjne ER Champ to również jedynie kilka ER w Polsce).''')
+    st.write('''Język polski jest dostępny we wszystkich ER, język angielski w 57%.
+             Częstość występowania pozostałych oznaczeń została przedstawiona poniżej''')
 
-    ### TODO tytuły do wszyskich wykresów !!!
+    grupa_oznaczen = st.selectbox('Wybierz grupę oznaczeń', ('wszystkie', 'podstawowe', 'bezpieczeństwo'))
+
+    if grupa_oznaczen == 'wszystkie':
+        st.table(df_wazne_informacje.sort_values('wartosc', ascending = False)\
+            [['Typ oznaczenia', 'Oznaczenie', 'Procent ER z oznaczeniem']])
+    if grupa_oznaczen == 'podstawowe':
+        st.table(df_wazne_informacje[df_wazne_informacje['Typ oznaczenia'] == 'podstawowe'].sort_values('wartosc', ascending=False)\
+                 [['Typ oznaczenia', 'Oznaczenie', 'Procent ER z oznaczeniem']])
+    if grupa_oznaczen == 'bezpieczeństwo':
+        st.table(df_wazne_informacje[df_wazne_informacje['Typ oznaczenia'] == 'bezpieczeństwo'].sort_values('wartosc', ascending=False)\
+                 [['Typ oznaczenia', 'Oznaczenie', 'Procent ER z oznaczeniem']])
+
+if page == 'Średnia ocena':
+
+    st.header('Średnia ocena')
+
+    ### TODO cała podstrona
+
+if page == 'Korelacje pomiędzy zmiennymi':
+
+    st.header('Korelacje pomiędzy zmiennymi')
+
+    ### TODO cała podstrona
+
+if page == 'Predykcja średniej oceny':
+
+    st.header('Predykcja średniej oceny')
+
+    ### TODO cała podstrona
+
+### TODO tytuły do wszyskich wykresów !!!
