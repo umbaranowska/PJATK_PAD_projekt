@@ -221,11 +221,35 @@ if page == 'Średnia ocena':
 
     st.header('Średnia ocena')
 
-    ### TODO cała podstrona
+    st.write('''Użytkownicy wystawiają raczej dobre oceny ER, rzadkością jest średnia ocena pokoju poniżej 6.
+    Najczęściej ER uzyskują średnią ocenę użytkowników bliską 9 czy nawet 9.7''')
+
+    fig07 = go.Figure()
+    fig07.add_trace(go.Histogram(x=df['srednia_ocena'], nbinsx=100))
+    st.plotly_chart(fig07, use_container_width = True)
+
+    st.write('A co ze średnią oceną za klimat i obsługę?')
+    st.write('''Okazuje się, że średnie oceny za klimat oraz obsługę są nieco wyższe niż oceny ogólne,
+    jednocześnie najniższe oceny za te dwa aspekty ER są niższe niż najniższa średnia ocena ogólna ER.
+    W jednym przypadku średnia ocena za obsługę to tylko 2.3.
+    Co ciekawe średnie oceny za obsługę mają nieco mniejszy rozrzut i są bardzo zbliżone do 9.7''')
+    st.write('Podobne zależności można zaobserwować w poszczególnych miastach i kategoriach.')
+
+
+    fig08 = go.Figure()
+    fig08.add_trace(go.Box(y=df['srednia_ocena'], orientation='v', showlegend=False))
+    fig08.add_trace(go.Box(y=df['ocena_klimat'], orientation='v', showlegend=False))
+    fig08.add_trace(go.Box(y=df['ocena_obsluga'], orientation='v', showlegend=False))
+    fig08.update_layout(xaxis = {'tickmode' : 'array',
+                                 'tickvals' : ['trace 0', 'trace 1', 'trace 2'],
+                                 'ticktext' : ['średnia', 'klimat', 'obsługa']})
+    st.plotly_chart(fig08, use_container_width=True)
 
 if page == 'Korelacje pomiędzy zmiennymi':
 
     st.header('Korelacje pomiędzy zmiennymi')
+
+
 
     ### TODO cała podstrona
 
