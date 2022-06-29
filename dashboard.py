@@ -401,5 +401,3 @@ if page == 'Predykcja średniej oceny - OLS':
         st.write(model.summary())
     except:
         st.error('''Musisz wybrać przynajmniej jedną zmienną!''')
-
-### TODO tytuły do wszyskich wykresów !!!
