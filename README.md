@@ -34,6 +34,10 @@ W tym etapie skupiono się na wyborze odpowiednich wizualizacji i funkcjonalnoś
 Podczas tego kroku znaleziono jeden pominięty wcześniej wiersz dla którego brakuje danych o poziomie trudności i jeden ER online. Ponieważ są to pojedyncze przypadki spośród ponad 450 obserwacji, zostały one usunięte z dalszej analizy.
 Ostatecznie wyczyszczone dane na których będzie budowany dashboard znajdują się w pliku data_final.csv
 
-## Do zrobienia
-- ostateczna wersja dashboardu (streamlit)
-- model do predykcji oceny (regresja?)
+## Dashboard - wersja ostateczna
+Kod znajduje się w pliku **dashboard.py**, aplikacja dostępna pod adresem https://umbaranowska-pjatk-pad-projekt-dashboard-6ccyqs.streamlitapp.com/
+Następnym krokiem byłaby pewnie modularyzacja i poprawa czytelności kodu.
+
+## Predykcja średniej oceny
+W dashboardzie znajduje się podstrona, na której można tworzyć prosty model regresji samodzielnie wybierając zmienne do uwzględnienia. Chociaż niekóre zmienne bardzo dobrze pomagają przewidzieć jaka będzie średnia ocena ER, to niestety nie udało sie osiągnąć R-squared powyżej ok. 0.3  
+Podjęto też próby z drzewami regresyjnymi - folder **regression_trees**, jednak okazywały się one bardzo rozbudowane, nawet przy uwzględnieniu niewielu zmiennych.
