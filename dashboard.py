@@ -200,19 +200,19 @@ if page == 'Poziom trudności ER':
 
     st.write('Podobnie prezentuje się rozkład poziomu trudności w każdej kategorii, poniżej wykresy dla 3 najpopularniejszych.')
 
-    fig04 = make_subplots(rows=1, cols=3,
+    fig04 = make_subplots(rows=3, cols=1,
                           subplot_titles=top3_kategorie,
                           shared_xaxes=True,
                           shared_yaxes=True)
     i = 0
-    c = 1
-    while c < 4:
+    r = 1
+    while r < 4:
         df_plot = df_trudnosci_04[df_trudnosci_04['kategoria'] == top3_kategorie[i]]
         fig04.add_trace(go.Bar(y=df_plot['ind'], x=df_plot['poziom_trudnosci'], orientation='v', showlegend=False),
-                        col=c, row=1)
-        c += 1
+                        col=1, row=r)
+        r += 1
         i += 1
-    fig04.update_layout(height = 400,
+    fig04.update_layout(height = 600,
                         xaxis={'categoryorder': 'array',
                                'categoryarray': poziomy_trudnosci},
                         title='Poziom trudności ER wg. ich twórców dla najpopularniejszych kategorii')
